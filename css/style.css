@@ -55,6 +55,10 @@ footer {
 .f-link a:hover{ color: #B30000;}
 .f-link a:active{ color: #eeeeee;}
 
+.copyright{
+  padding-top: 10px;
+}
+
 
 /* デスクトップ */
 @media (min-width: 769px)
