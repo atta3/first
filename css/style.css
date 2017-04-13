@@ -51,7 +51,7 @@ img{
 /* Header
 ------------------------------------------------------------*/
 header{
-  margin: 0px;
+  margin: 15px 0px;
 }
 
 .logo{
@@ -69,7 +69,7 @@ footer {
   text-align: center;
   color: #171717;}
 
-.f-ink{
+.f-link{
 	padding: 0px;
 	}
 .f-link a:link{ color: #171717;}
