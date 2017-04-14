@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.1em;
   background-color: #ffffff;
-  margin: 0px;
+  margin: 0;
   }
 
 a:link{ color: #005DCC;}
@@ -51,25 +51,29 @@ img{
 /* Header
 ------------------------------------------------------------*/
 header{
-  margin: 15px 0px;
+  margin: 0 auto;
+  width: 100%;
 }
 .container{
   width: 100%;
 }
 .row{
-  width: 100%;
+  width: 960px;
   display: flex;
+  margin: 0 auto;
 }
 .logo{
   margin: 5px 20px 0px 20px;
   padding: 0px;
-  width: 100%;
-  float: left;
-  text-align: left;
+  width: 240px;
 }
-
+.description{
+  width: 42%;
+  margin-right: 20px;
+  font-size: 80%;
+}
 .top_navi{
-  width: 40%;
+  width: 30%;
 }
 .top_navi a{text-decoration: none}
 .top_navi a:link{ color: #fff;}
