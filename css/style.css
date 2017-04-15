@@ -74,6 +74,7 @@ header{
 }
 .top_navi{
   width: 30%;
+  margin-top: 5px;
 }
 .top_navi a{text-decoration: none}
 .top_navi a:link{ color: #fff;}
@@ -84,7 +85,7 @@ header{
 .top_navi_sitemap{
   width: 120px;
   line-height: 30px;
-  margin: 5px;
+  margin: 5px 5px 15px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
@@ -97,7 +98,7 @@ header{
 .top_navi_contact{
   width: 120px;
   line-height: 30px;
-  margin: 5px;
+  margin: 5px 5px 15px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
@@ -106,6 +107,18 @@ header{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
+/* 検索フォーム*/
+#searchform1{
+  position: relative;
+  margin: 5px;
+}
+#keywords1  {  
+    width: 165px;  
+    height: 16px;   
+    border: 1px solid #0075B4;  
+    padding: 2px 2px 2px 35px;  
+}  
+
 
 /* Footer
 ------------------------------------------------------------*/
