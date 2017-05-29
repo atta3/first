@@ -99,17 +99,24 @@ header{
   margin-right: 20px;
   font-size: 80%;
 }
-.top_navi_pc{
+ul .top_navi_pc{
   width: 30%;
   margin-top: 5px;
 }
-.top_navi_pc a{text-decoration: none}
-.top_navi_pc a:link{ color: #ffffff;}
-.top_navi_pc a:visited{ color: #ffffff;}
-.top_navi_pc a:hover{ color: #E9C500;}
-.top_navi_pc a:active{ color: #E9C500;}
+li .top_navi_pc a{
+  text-decoration:none;
+}
+li .top_navi_pc a:link{
+  color: #ffffff;
+}
+li .top_navi_pc a:visited{}
+li .top_navi_pc a:hover{
+  color: #E9C500;
+}
+li .top_navi_pc a:active{ }
 
-.top_navi_sitemap_pc{
+
+ul.top_navi_pc li{
   width: 120px;
   line-height: 30px;
   margin: 5px 5px 15px 5px;
@@ -216,17 +223,23 @@ ul.nav li a:active{
   margin-right: 20px;
   font-size: 80%;
 }
-.top_navi{
+.top_navi_sp{
   width: 30%;
   margin-top: 5px;
 }
-.top_navi a{
+.top_navi_sp a{
   text-decoration: none;
   color: #ffffff;
 }
-.top_navi a:visited{ color: #ffffff;}
-.top_navi a:hover{ color: #E9C500;}
-.top_navi a:active{ color: #E9C500;}
+.top_navi_sp a:visited{
+  color: #ffffff;
+}
+.top_navi_sp a:hover{
+  color: #E9C500;
+}
+.top_navi_sp a:active{
+  color: #E9C500;
+}
 
 .top_navi_sitemap{
   width: 80px;
