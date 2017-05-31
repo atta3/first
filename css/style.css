@@ -84,6 +84,9 @@ header{
   margin: 0 auto;
   width: 100%;
 }
+.pc_all{
+  margin-top: 10px;
+}
 .row_pc{
   width: 960px;
   display: flex;
@@ -92,34 +95,44 @@ header{
 .logo_pc{
   margin: 5px 20px 0px 20px;
   padding: 0px;
-  width: 240px;
+  float: left;
+  width: 25%;
 }
 .description_pc{
-  width: 42%;
-  margin-right: 20px;
+  float: left;
+  width: 43%;
   font-size: 80%;
 }
-ul .top_navi_pc{
-  width: 30%;
+.top_navi_pc{
+  float: left;
+  width: 32%;
   margin-top: 5px;
 }
-li .top_navi_pc a{
-  text-decoration:none;
+
+ul .top_navi_pc{
+  margin-top: 0px;
 }
-li .top_navi_pc a:link{
+ul.top_navi_pc li a{
+  text-decoration:none;
   color: #ffffff;
 }
-li .top_navi_pc a:visited{}
-li .top_navi_pc a:hover{
+ul.top_navi_pc li a:link{
+  color: #ffffff;
+}
+ul.top_navi_pc li a:visited{
+  color: #ffffff;
+}
+ul.top_navi_pc li a:hover{
   color: #E9C500;
 }
-li .top_navi_pc a:active{ }
-
-
-ul.top_navi_pc li{
+ul.top_navi_pc li a:active{
+  color: #E9C500;
+}
+.top_navi_pc li{
+  list-style: none;
   width: 120px;
   line-height: 30px;
-  margin: 5px 5px 15px 5px;
+  margin: 5px 5px 5px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
@@ -128,11 +141,23 @@ ul.top_navi_pc li{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-
+.top_navi_sitemap{
+  width: 80px;
+  line-height: 30px;
+  margin: 5px 5px 15px 5px;
+  float: left;
+  background-color: #0075B4;
+  color: #fff;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
 .top_navi_contact_pc{
   width: 120px;
   line-height: 30px;
-  margin: 5px 5px 15px 5px;
+  margin: 5px 5px 5px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
@@ -140,6 +165,9 @@ ul.top_navi_pc li{
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+}
+.top_navi_search_pc{
+  margin-top: 25px;
 }
 /* 検索フォーム*/
 #searchform1_pc{
@@ -220,7 +248,7 @@ ul.nav li a:active{
 }
 .description{
   width: 90%;
-  margin-right: 20px;
+  margin-right: 10px;
   font-size: 80%;
 }
 .top_navi_sp{
