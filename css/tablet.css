@@ -180,6 +180,7 @@ ul.top_navi_pc li a:active{
     border: 1px solid #0075B4;  
     padding: 2px 2px 2px 35px;  
 }  
+}
 
 /* neck
 ------------------------------------------------------------*/
@@ -193,6 +194,7 @@ ul.nav{
 }
 ul.nav li{
   display: inline-block;
+  padding: 10px;
   margin-top: 0px;
   margin-left: 10px;
   background: #C6191E;
@@ -219,5 +221,89 @@ ul.nav li a:active{
 }
 
 
+/* スマホ */
+@media (max-width: 768px)
+{
+  header .pc_all{
+    display: none;
+    }
+    
+    
+/* Header
+------------------------------------------------------------*/
+.container{
+  width: 100%;
+}
+.row{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.logo{
+  margin: 5px 20px 0px 20px;
+  padding: 0px;
+  width: 240px;
+}
+.description{
+  width: 96%;
+  margin: 0 auto;
+  font-size: 80%;
+}
+.top_navi_sp{
+  width: 30%;
+  margin-top: 5px;
+}
+.top_navi_sp a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.top_navi_sp a:visited{
+  color: #ffffff;
+}
+.top_navi_sp a:hover{
+  color: #E9C500;
+}
+.top_navi_sp a:active{
+  color: #E9C500;
 }
 
+.top_navi_sitemap{
+  width: 80px;
+  line-height: 30px;
+  margin: 5px 5px 15px 5px;
+  float: left;
+  background-color: #0075B4;
+  color: #fff;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.top_navi_contact{
+  width: 80px;
+  line-height: 30px;
+  margin: 5px 5px 15px 5px;
+  float: left;
+  background-color: #0075B4;
+  color: #fff;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+/* 検索フォーム*/
+#searchform1{
+  position: relative;
+  margin: 5px;
+}
+#keywords1  {  
+    width: 85px;  
+    height: 16px;   
+    border: 1px solid #0075B4;  
+    padding: 2px 2px 2px 35px;  
+}  
+
+}
