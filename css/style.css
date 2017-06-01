@@ -218,6 +218,59 @@ ul.nav li a:active{
   color: #E9C500;
 }
 
+/* メイン　main
+------------------------------------------------------------*/
 
+main{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.test{
+background-color: #f8f7f0;
+width: 770px;
+height: 250px;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+.pro_nav_row{
+  width: 820px;
+  margin: 0 auto;
+}
+ul.pro_nav{
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+ul.pro_nav li{
+  display: inline-block;
+  background: #C6191E;
+  width: 160px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  margin:0 0px 18px 0;
+  border-style: double;
+  border-color: #ffffff;
+  border-width: medium;
+}
+ul.pro_nav li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.pro_nav li a:visited{
+  color: #ffffff;
+}
+ul.pro_nav li a:hover{
+  color: #E9C500;
+}
+ul.pro_nav li a:active{
+  color: #E9C500;
 }
 
+
+    
+  }
