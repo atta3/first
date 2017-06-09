@@ -245,7 +245,7 @@ ul.pro_nav{
 ul.pro_nav li{
   display: inline-block;
   background: #C6191E;
-  width: 160px;
+  width: 180px;
   height: 70px;
   text-align: center;
   line-height: 70px;
@@ -256,6 +256,9 @@ ul.pro_nav li{
   border-style: double;
   border-color: #ffffff;
   border-width: medium;
+}
+ul.pro_nav li:hover{
+  background: #0075B4;
 }
 ul.pro_nav li a{
   color: #ffffff;
