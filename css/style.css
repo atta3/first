@@ -226,6 +226,8 @@ main{
   width: 100%;
   text-align: center;
 }
+
+/* ▽カルーセル▽*/
 .test{
 background-color: #f8f7f0;
 width: 770px;
@@ -233,6 +235,60 @@ height: 250px;
 margin: 0 auto;
 margin-bottom: 30px;
 }
+
+/* ▽更新情報▽*/
+.info{
+  margin: 0 auto;
+  width: 500px;
+}
+
+.info_tit{
+position: relative;
+background: #0075B4;
+padding: 2px 40px 2px 25px;
+font-size: 18px;
+color: #ffffff;
+border-radius: 0 10px 10px 0;
+margin: 8px;
+}
+
+.info_tit:before {
+font-family: FontAwesome;
+content: "\f041";
+display: inline-block;
+line-height: 40px;
+position: absolute;
+padding: 0em;
+color: white;
+background: #0075B4;
+font-weight: normal;
+width: 40px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+left: -1.35em;
+top: 50%;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+border: solid 3px white; 
+border-radius: 50%;
+}
+
+
+.info_sub{
+  height: 50px;
+  background-color: #f8f7f0;
+  width: 98%;
+}
+.info_sub_tb{
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ▽商品ナビゲーション▽*/
+
 .pro_nav_row{
   width: 820px;
   margin: 0 auto;
