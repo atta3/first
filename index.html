@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="css/smart.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png" type="text/css">
+    <!-- carousel -->
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+	        <!-- Owl Carouselを動作させるために追加 -->
+        <script src="carousel.js"></script>
 </head>
 <body>
 <!--ヘッダー-->
@@ -77,11 +87,14 @@
 	</ul>
 </neck>
 
-
 <!--メイン-->
 <main>
-	<div class="test">
-		
+	<div class="carousel"><!--カルーセル-->
+        <div class="owl-carousel owl-theme">
+            <div><img src="images/carousel/carousel1.png"></img></div>
+            <div><img src="images/carousel/carousel2.png"></img></div>
+            <div><img src="images/carousel/carousel3.png"></img></div>
+        </div>
 	</div><!--カルーセル-->
 
 	<div class="info">
@@ -118,13 +131,13 @@
 	</div><!--pro_nav_row -->
 	
 </main>
-
 <!--フッター-->
 <footer>
 	<div class="f-link">｜　<a href="about.html">attaについて</a>　｜　<a href="contact.html">お問い合わせ</a>　｜　<a href="sitemap.html">サイトマップ</a>　｜</div>
 	<div class="copyright">©Copyright 2017 atta-アッタ-</div>
 </footer>
-
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
 

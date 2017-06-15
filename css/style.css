@@ -83,6 +83,7 @@ footer {
 header{
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 0px;
 }
 .pc_all{
   margin-top: 15px;
@@ -93,7 +94,7 @@ header{
   margin: 0 auto;
 }
 .logo_pc{
-  margin: 5px 20px 0px 20px;
+  margin: 5px 20px 0px 0px;
   padding: 0px;
   float: left;
   width: 25%;
@@ -177,11 +178,11 @@ ul.top_navi_pc li a:active{
 #keywords1_pc{  
     width: 165px;  
     height: 16px;   
-    border: 1px solid #0075B4;  
+    border: 1px dotted #0075B4;  
     padding: 2px 2px 2px 35px;  
 }  
 
-/* neck
+/* ネック
 ------------------------------------------------------------*/
 neck{
   margin: 0 auto;
@@ -190,6 +191,7 @@ neck{
 }
 ul.nav{
   padding: 5px;
+  margin-top: 0px;
 }
 ul.nav li{
   display: inline-block;
@@ -228,13 +230,15 @@ main{
 }
 
 /* ▽カルーセル▽*/
-.test{
+.carousel{
 background-color: #f8f7f0;
 width: 770px;
 height: 250px;
 margin: 0 auto;
-margin-bottom: 30px;
+margin-bottom: 40px;
 }
+
+
 
 /* ▽更新情報▽*/
 .info{
