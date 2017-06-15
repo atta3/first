@@ -50,26 +50,6 @@ img{
 
 
 
-/* Footer
-------------------------------------------------------------*/
-footer {
-  background-color: #E9C500;
-  padding: 20px 0;
-  text-align: center;
-  color: #171717;}
-
-.f-link{
-	padding: 0px;
-	}
-.f-link a:link{ color: #171717;}
-.f-link a:visited{ color: #171717;}
-.f-link a:hover{ color: #B30000;}
-.f-link a:active{ color: #eeeeee;}
-
-.copyright{
-  padding-top: 10px;
-}
-
 
 /* デスクトップ */
 @media (min-width: 769px)
@@ -331,5 +311,66 @@ ul.pro_nav li a:hover{
 ul.pro_nav li a:active{
   color: #E9C500;
 }
+
+
+/* Footer
+------------------------------------------------------------*/
+footer {
+  background-color: #E9C500;
+  padding: 20px 0;
+  text-align: center;
+  color: #171717;}
+
+.f-link{
+	padding: 0px;
+	width: 100%;
+	}
+.f-link a:link{ color: #171717;}
+.f-link a:visited{ color: #171717;}
+.f-link a:hover{ color: #B30000;}
+.f-link a:active{ color: #eeeeee;}
+
+.f_link_po{
+  margin-right: 25px;
+  margin-bottom: 10px;
+	display: inline-block;
+}
+
+.f_link_deco{
+position: relative;
+padding: 2px 2px 2px 15px;
+color: #ffffff;
+border-radius: 0 10px 10px 0;
+}
+
+.f_link_deco:before {
+font-family: FontAwesome;
+content: "\f135";
+display: inline-block;
+line-height: 40px;
+position: absolute;
+padding: 0em;
+color: white;
+background: #ffa337;
+font-weight: normal;
+width: 30px;
+text-align: center;
+height: 30px;
+line-height: 30px;
+left: -1.35em;
+top: 50%;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+border-radius: 50%;
+}
+
+
+
+.copyright{
+  padding-top: 10px;
+}
+
 
   }
