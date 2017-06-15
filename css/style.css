@@ -178,7 +178,7 @@ ul.top_navi_pc li a:active{
 #keywords1_pc{  
     width: 165px;  
     height: 16px;   
-    border: 1px dotted #0075B4;  
+    border: 1px solid #0075B4;  
     padding: 2px 2px 2px 35px;  
 }  
 
@@ -282,7 +282,7 @@ border-radius: 50%;
 
 
 .info_sub{
-  height: 50px;
+  height: auto;
   background-color: #f8f7f0;
   width: 98%;
 }
@@ -334,6 +334,4 @@ ul.pro_nav li a:active{
   color: #E9C500;
 }
 
-
-    
   }

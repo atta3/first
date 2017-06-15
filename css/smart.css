@@ -92,11 +92,11 @@ header{
   display: flex;
   margin: 0 auto;
 }
-.logo_pc{
+.logo_sp{
   margin: 5px 20px 0px 20px;
   padding: 0px;
   float: left;
-  width: 25%;
+  width: 20%;
 }
 .description_pc{
   float: left;
@@ -195,10 +195,10 @@ ul.nav{
 ul.nav li{
   display: inline-block;
   padding: 10px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 10px;
   background: #C6191E;
-  width: 160px;
+  width: 80%;
   height: 24px;
   text-align: center;
   border-radius: 12px;
@@ -222,7 +222,7 @@ ul.nav li a:active{
 
 
 /* スマホ */
-@media (max-width: 768px)
+@media (max-width: 414px)
 {
   header .pc_all{
     display: none;
@@ -234,13 +234,15 @@ ul.nav li a:active{
 .container{
   width: 100%;
 }
-.row{
+.sp_all{
+  margin: 0 auto;
+}
+.row_sp{
   width: 100%;
   margin: 0 auto;
-  display: flex;
 }
-.logo{
-  margin: 5px 20px 0px 20px;
+.logo_sp{
+  margin: 0 auto;
   padding: 0px;
   width: 240px;
 }
@@ -250,60 +252,158 @@ ul.nav li a:active{
   font-size: 80%;
 }
 .top_navi_sp{
-  width: 30%;
-  margin-top: 5px;
+  width: 90%;
+  text-align: center;
 }
-.top_navi_sp a{
-  text-decoration: none;
-  color: #ffffff;
-}
-.top_navi_sp a:visited{
-  color: #ffffff;
-}
-.top_navi_sp a:hover{
-  color: #E9C500;
-}
-.top_navi_sp a:active{
-  color: #E9C500;
+.top_navi_search_sp{
+  padding-left: 30px;
 }
 
-.top_navi_sitemap{
-  width: 80px;
-  line-height: 30px;
-  margin: 5px 5px 15px 5px;
-  float: left;
-  background-color: #0075B4;
-  color: #fff;
-  font-size: 80%;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-
-.top_navi_contact{
-  width: 80px;
-  line-height: 30px;
-  margin: 5px 5px 15px 5px;
-  float: left;
-  background-color: #0075B4;
-  color: #fff;
-  font-size: 80%;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
 /* 検索フォーム*/
-#searchform1{
+#searchform2{
   position: relative;
   margin: 5px;
 }
-#keywords1  {  
-    width: 85px;  
-    height: 16px;   
-    border: 1px solid #0075B4;  
-    padding: 2px 2px 2px 35px;  
+#keywords2  {  
+    width: 125px;  
+    height: 16px;
+    border: 1px solid #0075B4;
+    padding: 2px 2px 2px 45px;
 }  
+
+/* ネック */
+neck{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+ul.nav{
+  padding: 5px;
+}
+ul.nav li{
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #C6191E;
+  width: 80%;
+  height: 24px;
+  text-align: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  vertical-align: middle;
+}
+ul.nav li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.nav li a:visited{
+  color: #ffffff;
+}
+ul.nav li a:hover{
+  color: #E9C500;
+}
+ul.nav li a:active{
+  color: #E9C500;
+}
+
+
+/* ▽更新情報▽*/
+.info{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.info_tit{
+position: relative;
+background: #0075B4;
+padding: 2px 40px 2px 25px;
+font-size: 18px;
+color: #ffffff;
+border-radius: 0 10px 10px 0;
+margin: 8px;
+}
+
+.info_tit:before {
+font-family: FontAwesome;
+content: "\f041";
+display: inline-block;
+line-height: 40px;
+position: absolute;
+padding: 0em;
+color: white;
+background: #0075B4;
+font-weight: normal;
+width: 40px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+left: -1.35em;
+top: 50%;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+border: solid 3px white; 
+border-radius: 50%;
+}
+
+
+.info_sub{
+  height: auto;
+  background-color: #f8f7f0;
+  width: 98%;
+}
+.info_sub_tb{
+  margin: 0 auto;
+  text-align: left;
+}
+
+  
+/* ▽商品ナビゲーション▽*/
+
+.pro_nav_row{
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+}
+ul.pro_nav{
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+ul.pro_nav li{
+  display: inline-block;
+  background: #C6191E;
+  width: 180px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  margin:0 0px 18px 0;
+  border-style: double;
+  border-color: #ffffff;
+  border-width: medium;
+}
+ul.pro_nav li:hover{
+  background: #0075B4;
+}
+ul.pro_nav li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.pro_nav li a:visited{
+  color: #ffffff;
+}
+ul.pro_nav li a:hover{
+  color: #E9C500;
+}
+ul.pro_nav li a:active{
+  color: #E9C500;
+}
+
 
 }
