@@ -71,156 +71,6 @@ footer {
 }
 
 
-/* デスクトップ */
-@media (min-width: 769px)
-{
-  header .sp_all{
-    display: none;
-    }
-    
-/* Header
-------------------------------------------------------------*/
-header{
-  margin: 0 auto;
-  width: 100%;
-}
-.pc_all{
-  margin-top: 15px;
-}
-.row_pc{
-  width: 960px;
-  display: flex;
-  margin: 0 auto;
-}
-.logo_sp{
-  margin: 5px 20px 0px 20px;
-  padding: 0px;
-  float: left;
-  width: 20%;
-}
-.description_pc{
-  float: left;
-  width: 43%;
-  font-size: 80%;
-}
-.top_navi_pc{
-  float: left;
-  width: 32%;
-  margin-top: 5px;
-}
-
-ul .top_navi_pc{
-  margin-top: 0px;
-}
-ul.top_navi_pc li a{
-  text-decoration:none;
-  color: #ffffff;
-}
-ul.top_navi_pc li a:link{
-  color: #ffffff;
-}
-ul.top_navi_pc li a:visited{
-  color: #ffffff;
-}
-ul.top_navi_pc li a:hover{
-  color: #E9C500;
-}
-ul.top_navi_pc li a:active{
-  color: #E9C500;
-}
-.top_navi_pc li{
-  list-style: none;
-  width: 120px;
-  line-height: 30px;
-  margin: 5px 5px 5px 5px;
-  float: left;
-  background-color: #0075B4;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.top_navi_sitemap{
-  width: 80px;
-  line-height: 30px;
-  margin: 5px 5px 15px 5px;
-  float: left;
-  background-color: #0075B4;
-  color: #fff;
-  font-size: 80%;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.top_navi_contact_pc{
-  width: 120px;
-  line-height: 30px;
-  margin: 5px 5px 5px 5px;
-  float: left;
-  background-color: #0075B4;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.top_navi_search_pc{
-  margin-top: 25px;
-}
-/* 検索フォーム*/
-#searchform1_pc{
-  position: relative;
-  margin: 5px;
-}
-#keywords1_pc{  
-    width: 165px;  
-    height: 16px;   
-    border: 1px solid #0075B4;  
-    padding: 2px 2px 2px 35px;  
-}  
-}
-
-/* neck
-------------------------------------------------------------*/
-neck{
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-}
-ul.nav{
-  padding: 5px;
-}
-ul.nav li{
-  display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  background: #C6191E;
-  width: 80%;
-  height: 24px;
-  text-align: center;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  vertical-align: middle;
-}
-ul.nav li a{
-  color: #ffffff;
-  text-decoration: none;
-}
-ul.nav li a:visited{
-  color: #ffffff;
-}
-ul.nav li a:hover{
-  color: #E9C500;
-}
-ul.nav li a:active{
-  color: #E9C500;
-}
-
-
 /* スマホ */
 @media (max-width: 414px)
 {
@@ -234,14 +84,16 @@ ul.nav li a:active{
 .container{
   width: 100%;
 }
-.sp_all{
+.h_all{
   margin: 0 auto;
+  margin-top: 10px;
 }
-.row_sp{
+.row{
   width: 100%;
   margin: 0 auto;
+  display: block;
 }
-.logo_sp{
+.logo{
   margin: 0 auto;
   padding: 0px;
   width: 240px;
@@ -251,20 +103,26 @@ ul.nav li a:active{
   margin: 0 auto;
   font-size: 80%;
 }
-.top_navi_sp{
+.top_navi{
   width: 90%;
   text-align: center;
 }
-.top_navi_search_sp{
+.top_navi_sitemap{
+  display: none;
+}
+.top_navi_contact{
+  display: none;
+}
+.top_navi_search{
   padding-left: 30px;
 }
 
 /* 検索フォーム*/
-#searchform2{
+#searchform1{
   position: relative;
   margin: 5px;
 }
-#keywords2  {  
+#keywords1  {  
     width: 125px;  
     height: 16px;
     border: 1px solid #0075B4;

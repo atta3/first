@@ -74,9 +74,7 @@ footer {
 /* デスクトップ */
 @media (min-width: 769px)
 {
-  header .sp_all{
-    display: none;
-    }
+
     
 /* Header
 ------------------------------------------------------------*/
@@ -85,51 +83,51 @@ header{
   width: 100%;
   margin-bottom: 0px;
 }
-.pc_all{
+.h_all{
   margin-top: 15px;
 }
-.row_pc{
+.row{
   width: 960px;
   display: flex;
   margin: 0 auto;
 }
-.logo_pc{
+.logo{
   margin: 5px 20px 0px 0px;
   padding: 0px;
   float: left;
   width: 25%;
 }
-.description_pc{
+.description{
   float: left;
   width: 43%;
   font-size: 80%;
 }
-.top_navi_pc{
+.top_navi{
   float: left;
   width: 32%;
   margin-top: 5px;
 }
 
-ul .top_navi_pc{
+ul .top_navi{
   margin-top: 0px;
 }
-ul.top_navi_pc li a{
+ul.top_navi li a{
   text-decoration:none;
   color: #ffffff;
 }
-ul.top_navi_pc li a:link{
+ul.top_navi li a:link{
   color: #ffffff;
 }
-ul.top_navi_pc li a:visited{
+ul.top_navi li a:visited{
   color: #ffffff;
 }
-ul.top_navi_pc li a:hover{
+ul.top_navi li a:hover{
   color: #E9C500;
 }
-ul.top_navi_pc li a:active{
+ul.top_navi li a:active{
   color: #E9C500;
 }
-.top_navi_pc li{
+.top_navi li{
   list-style: none;
   width: 120px;
   line-height: 30px;
@@ -155,7 +153,7 @@ ul.top_navi_pc li a:active{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-.top_navi_contact_pc{
+.top_navi_contact{
   width: 120px;
   line-height: 30px;
   margin: 5px 5px 5px 5px;
@@ -167,15 +165,15 @@ ul.top_navi_pc li a:active{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-.top_navi_search_pc{
+.top_navi_search{
   margin-top: 25px;
 }
 /* 検索フォーム*/
-#searchform1_pc{
+#searchform1{
   position: relative;
   margin: 5px;
 }
-#keywords1_pc{  
+#keywords1{  
     width: 165px;  
     height: 16px;   
     border: 1px solid #0075B4;  
