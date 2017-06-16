@@ -339,19 +339,19 @@ footer {
 .f_link_deco{
 position: relative;
 padding: 2px 2px 2px 15px;
-color: #ffffff;
+color: #E9C500;
 border-radius: 0 10px 10px 0;
 }
 
 .f_link_deco:before {
 font-family: FontAwesome;
-content: "\f135";
+content: "\f005";
 display: inline-block;
 line-height: 40px;
 position: absolute;
 padding: 0em;
-color: white;
-background: #ffa337;
+color: #ffffff;
+background: #E9C500;
 font-weight: normal;
 width: 30px;
 text-align: center;
