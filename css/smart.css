@@ -53,7 +53,7 @@ img{
 
 
 /* スマホ */
-@media (max-width: 414px)
+@media (max-width: 414px)/* 414px以上 */
 {
   header .pc_all{
     display: none;

@@ -67,15 +67,21 @@ header{
   margin-top: 15px;
 }
 .row{
-  width: 960px;
+  width: 760px;
   display: flex;
   margin: 0 auto;
 }
 .logo{
-  margin: 5px 20px 0px 0px;
+  margin: 20px 20px 0px 0px;
   padding: 0px;
   float: left;
-  width: 25%;
+  width: 30%;
+}
+.logo img{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 .description{
   float: left;
@@ -84,12 +90,16 @@ header{
 }
 .top_navi{
   float: left;
-  width: 32%;
-  margin-top: 5px;
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 ul .top_navi{
   margin-top: 0px;
+  width: 100px;
+  display: inline-block;
 }
 ul.top_navi li a{
   text-decoration:none;
@@ -109,9 +119,9 @@ ul.top_navi li a:active{
 }
 .top_navi li{
   list-style: none;
-  width: 120px;
+  width: 100%;
   line-height: 30px;
-  margin: 5px 5px 5px 5px;
+  margin: 0px 5px 5px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
@@ -121,50 +131,51 @@ ul.top_navi li a:active{
   -moz-border-radius: 5px;
 }
 .top_navi_sitemap{
-  width: 80px;
+  width: 60px;
   line-height: 30px;
   margin: 5px 5px 15px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
-  font-size: 80%;
+  font-size: 90%;
   text-align: center;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
 .top_navi_contact{
-  width: 120px;
+  width: 60px;
   line-height: 30px;
   margin: 5px 5px 5px 5px;
   float: left;
   background-color: #0075B4;
   color: #fff;
+  font-size: 90%;
   text-align: center;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
 .top_navi_search{
-  margin-top: 25px;
+  margin-top: 0px;
 }
 /* 検索フォーム*/
 #searchform1{
   position: relative;
-  margin: 5px;
+  margin: 0px 0px 0px 5px;
 }
 #keywords1{  
-    width: 165px;  
-    height: 16px;   
+    width: 138px;  
+    height: 22px;   
     border: 1px solid #0075B4;  
-    padding: 2px 2px 2px 35px;  
+    padding: 2px 0px 2px 2px;  
 }  
 
 /* ネック
 ------------------------------------------------------------*/
 neck{
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 ul.nav{
@@ -173,8 +184,8 @@ ul.nav{
 }
 ul.nav li{
   display: inline-block;
-  margin-top: 0px;
-  margin-left: 10px;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
   background: #C6191E;
   width: 160px;
   height: 24px;
@@ -182,7 +193,6 @@ ul.nav li{
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
-  vertical-align: middle;
 }
 ul.nav li a{
   color: #ffffff;
@@ -209,7 +219,6 @@ main{
 
 /* ▽カルーセル▽*/
 .carousel{
-background-color: #f8f7f0;
 width: 770px;
 height: 250px;
 margin: 0 auto;
