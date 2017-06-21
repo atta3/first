@@ -83,15 +83,21 @@ img{
   width: 96%;
   margin: 0 auto;
   font-size: 80%;
+  padding-left: 15px;
 }
-.top_navi{
-  width: 90%;
-  text-align: center;
+.top_navi_row{
+  margin: 0 auto;
 }
-.top_navi_sitemap{
+ul.top_navi{
+  list-style: none;
+  width: 240px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 5px;
+}
+#sitemap{
   display: none;
 }
-.top_navi_contact{
+#contact{
   display: none;
 }
 .top_navi_search{
@@ -135,6 +141,9 @@ ul.nav li{
   -moz-border-radius: 12px;
   vertical-align: middle;
 }
+ul.nav li:hover{
+  background: #E9C500;
+}
 ul.nav li a{
   color: #ffffff;
   text-decoration: none;
@@ -149,6 +158,21 @@ ul.nav li a:active{
   color: #E9C500;
 }
 
+/* メイン　main
+------------------------------------------------------------*/
+
+main{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* ▽カルーセル▽*/
+.carousel{
+width: 90%;
+margin: 0 auto;
+margin-bottom: 0px;
+}
 
 /* ▽更新情報▽*/
 .info{
@@ -218,6 +242,7 @@ ul.pro_nav{
 ul.pro_nav li{
   display: inline-block;
   background: #C6191E;
+  color: #ffffff;
   width: 180px;
   height: 70px;
   text-align: center;
