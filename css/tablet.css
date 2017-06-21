@@ -171,6 +171,7 @@ ul.nav li{
   padding: 10px;
   margin: 0px 10px 10px 10px;
   background: #C6191E;
+  color: #ffffff;
   width: 160px;
   height: 24px;
   text-align: center;
@@ -276,6 +277,7 @@ ul.pro_nav{
 ul.pro_nav li{
   display: inline-block;
   background: #C6191E;
+  color: #ffffff;
   width: 180px;
   height: 70px;
   text-align: center;
