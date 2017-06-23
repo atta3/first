@@ -382,7 +382,7 @@ border-radius: 50%;
 ul.pro_nav_head{
   padding: 5px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 ul.pro_nav_head li{
   display: inline-block;
@@ -444,7 +444,7 @@ nav#breadcrumbs ol li:first-child:before {
 section{/* 方眼背景*/
     background-color: #FFF;
     min-height: 418px;
-    padding: 63px 10px 10px;
+    padding: 10px 10px 10px 10px;
     background-image:
         -webkit-linear-gradient(
             transparent 95%,
@@ -457,20 +457,19 @@ section{/* 方眼背景*/
             );
     background-size: 20px 20px;
     background-repeat: repeat;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .pro_flame_row{
-  margin: 0 auto;
   width: 760px;
-  padding: 0px;
+  margin: 0 auto;
 }
 .pro_flame{
   display: inline-block;
-  padding: 5px;
-  margin: 0px 5px 0px 5px;
+  padding: 0px;
+  margin: 0px 5px 20px 5px;
   background-color: #ffffff;
   width: 30%;
-  height: 280px;
+  height: 340px;
   text-align: center;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -479,23 +478,76 @@ section{/* 方眼背景*/
 }
 .pro_photo{
   margin: 0 auto;
+  padding: 10px;
   width: 90%;
-  height: 150px;
+  height: 160px;
   background-color: #ffffff;
+}
+.pro_photo_in{
+  margin: 0 auto;
+  width: 200px;
+  height: 170px;
+  background-color: #ffffff;
+  border: solid 1px #000;
+}
+.paper{
+	width:160px;height:120px;
+	margin: 10px;
+	padding:15px;
+	border:1px solid #e5e5e5;
+	background:#fff;
+	border-radius:2px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
+	position:relative;
+}
+.paper:before,
+.paper:after{
+	content:"";
+	display:block;
+	width:100%;height:100%;
+	border:1px solid #000;
+	background:#fff;
+	border-radius:2px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.paper:before{
+	-webkit-transform:rotate(-5deg);
+	transform:rotate(-5deg);
+}
+.paper:after{
+	-webkit-transform:rotate(5deg);
+	transform:rotate(5deg);
 }
 .pro_title{
   margin: 0 auto;
   width: 90%;
   height: 25px;
   line-height: 25px;
+  color: #000000;
   background-color: #e5e5e5;
 }
-
-
-
-
-
-
+.pro_comment{
+  position: relative;
+  width: 200px;
+  height: 110px;
+  margin: 0px 10px 0px 15px;
+  text-align: left;
+}
+.pro_more{
+  position: absolute;
+  width: 130px;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 2px;
+  text-align: right;
+}
+.pro_more a{
+  color: #000000;
+}
 
 
 
