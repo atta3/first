@@ -272,6 +272,30 @@ ul.pro_nav li a:active{
   color: #E9C500;
 }
 
+/* 上に戻るボタン */
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 8px;
+  width: 25px;
+  height: auto;
+  background-color: #0075B4;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
 /* Footer
 ------------------------------------------------------------*/
 footer {
@@ -333,6 +357,7 @@ border-radius: 50%;
 /* ▽ネック▽*/
 
 #nav_dot{
+  color: #C6191E;
   background: #ffffff;
   border-style: dotted;
   border-color: #C6191E;
@@ -370,6 +395,7 @@ ul.pro_nav_head{
 ul.pro_nav_head li{
   display: inline-block;
   background: #C6191E;
+  color: #ffffff;
   width: auto;
   height: 20px;
   text-align: center;
@@ -420,7 +446,7 @@ nav#breadcrumbs ol li:first-child:before {
   margin: 0 auto;
   width: 100%;
   text-align: left;
-  height: 20px;
+  height: auto;
 }
 
 /* ▽方眼▽*/

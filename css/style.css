@@ -10,7 +10,7 @@ html {
 body {
   color: #171717;
   font-size: 1.4rem;
-  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
   background-color: #ffffff;
@@ -286,6 +286,29 @@ ul.pro_nav li a:active{
   color: #E9C500;
 }
 
+/* 上に戻るボタン */
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 8px;
+  width: 25px;
+  height: auto;
+  background-color: #0075B4;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
 
 
 /* Footer
@@ -350,6 +373,7 @@ border-radius: 50%;
 /* ▽ネック▽*/
 
 #nav_dot{
+  color: #C6191E;
   background: #ffffff;
   border-style: dotted;
   border-color: #C6191E;
@@ -387,6 +411,7 @@ ul.pro_nav_head{
 ul.pro_nav_head li{
   display: inline-block;
   background: #C6191E;
+  color: #ffffff;
   width: auto;
   height: 20px;
   text-align: center;
@@ -549,6 +574,13 @@ section{/* 方眼背景*/
   color: #000000;
 }
 
+.page_navi{
+  width: 100%;
+  height: 20px;
+  background-color: #E9C500;
+  padding: 0px;
+  margin-bottom: 10px;
+}
 
 
   }
