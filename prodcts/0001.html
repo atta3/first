@@ -13,35 +13,7 @@
     <link rel="stylesheet" href="../css/smart.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../images/favicon.png" type="text/css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	$('#viewer div img').each(function(i){
-		$(this).css({opacity:'0'}).attr('id','view' + (i + 1).toString());
-		$('#viewer div img:first').css({opacity:'1',zIndex:'99'});
-	});
 
-	$('#viewer ul li').click(function(){
-		var connectCont = $('#viewer ul li').index(this);
-		var showCont = connectCont+1;
-
-		$('#viewer div img#view' + (showCont)).siblings().stop().animate({opacity:'0'},1000);
-		$('#viewer div img#view' + (showCont)).stop().animate({opacity:'1'},1000);
-
-		$(this).addClass('active');
-		$(this).siblings().removeClass('active');
-	});
-
-	$('#viewer ul li:not(.active)').hover(function(){
-		$(this).stop().animate({opacity:'1'},200);
-	},function(){
-		$(this).stop().animate({opacity:'0.5'},200);
-	});
-
-	$('#viewer ul li').css({opacity:'0.5'});
-	$('#viewer ul li:first').addClass('active');
-});
-</script>
 </head>
 <body>
 <header>
@@ -129,10 +101,15 @@ $(function(){
     					<img src="../images/prodcts/0001s3.png" onclick="changeimg('../images/prodcts/0001s3b.png',this);">
 					</div>
 				</div>
+				<div class="pro_title_l1">この商品に関する参考サイト</div>
 			</div><!--pro_left-->
-		<div class="pro_right">
-
-		</div><!--pro_right-->
+			<div class="pro_right">
+				<div class="pro_r_title"><span class="pro_r_title1">商品名</span>できiPad2</div>
+				<div class="pro_r_title"><span class="pro_r_title2">この商品の主な特徴</span>&nbsp;</div>
+				<div class="pro_r_text2">iPhone/iPad に外部スイッチをBluetooth接続するための機器です。Apple独自のスイッチコントロールという機能を使うことにより、自分で操作できなかったiPhone/iPadの操作が外部スイッチを使えば可能になります。※外部スイッチは自分に合ったものを選びましょう。</div>
+				<div class="pro_r_title"><span class="pro_r_title3">この商品の主な仕様</span>&nbsp;</div>
+				<div></div>
+			</div><!--pro_right-->
 		</div><!--pro_flame-->
 	</div><!--pro_flame_row-->
 </section>

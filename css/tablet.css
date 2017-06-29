@@ -52,7 +52,7 @@ img{
 
 
 /* タブレット */
-@media (min-width: 415px) and (max-width: 768px)/* 414px以上  768px以下 */
+@media  print, screen and (min-width: 415px) and (max-width: 768px)/* 414px以上  768px以下 */
 {
 
     
