@@ -593,11 +593,14 @@ section{/* 方眼背景*/
   float: left;
   width: 260px;
   padding: 20px 10px;
+  background-color: #ffffff;
 }
 .pro_right{
   float: left;
   width: 450px;
   padding: 20px 10px;
+  background-color: #ffffff;
+  
 }
 .pro_flame{
   display: inline-block;
@@ -682,7 +685,7 @@ section{/* 方眼背景*/
   background-color: #e5e5e5;
 }
 .pro_r_title1{
-  width: 70px;
+  width: 170px;
   float: left;
   margin: 0px 15px 0 0;
   padding: 2px 0 0 0;
@@ -713,7 +716,7 @@ section{/* 方眼背景*/
   height: auto;
   margin: 0px 0px 20px 0;
   text-align: left;
-  font-size: 120%;
+  font-size: 140%;
 }
 .pro_r_text2{
   width: 100%;
@@ -722,7 +725,7 @@ section{/* 方眼背景*/
   text-align: left;
 }
 .pro_r_text3{
-  width: 100%;
+  width: 450px;
   height: auto;
   margin: 0px 0px 20px 0;
   text-align: left;
@@ -740,6 +743,41 @@ section{/* 方眼背景*/
   padding: 2px;
   background-color: #e5e5e5;
 }
+table.pro_table1{
+        border-collapse: collapse;
+    }
+table.pro_table1 tr{
+        border-color: #e5e5e5;
+        border-style: solid;
+        border-width: 1px 0;
+    }
+table.pro_table1 th{
+  width: 120px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+  /* ノート背景
+  color: #000;
+  padding:2.5rem 1rem 3rem;
+  background-color: #ffffff;
+  background-image: linear-gradient( rgba(0,0,0,.2) .1em, transparent .1em );
+  background-size: auto 2.5rem;
+  line-height: 2.5rem;
+  overflow: hidden;*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
