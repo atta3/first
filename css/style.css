@@ -615,7 +615,7 @@ section{/* 方眼背景*/
   -moz-border-radius: 12px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.6); 
 }
-.pro_title_l1{
+.pro_l_title{
   width: 100%;
   height: 25px;
   padding-top: 4px;
@@ -670,6 +670,9 @@ section{/* 方眼背景*/
 .paper:after{
 	-webkit-transform:rotate(5deg);
 	transform:rotate(5deg);
+}
+.pro_l_text2{
+  margin: 10px 0;
 }
 .pro_r_title{
   margin-bottom: 5px;
