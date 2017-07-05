@@ -483,10 +483,12 @@ section{/* 方眼背景*/
     background-size: 20px 20px;
     background-repeat: repeat;
     margin: 10px 0px;
+    height: auto;
 }
 .pro_flame_row{
   width: 760px;
   margin: 0 auto;
+  height: auto;
 }
 .pro_flame{
   display: inline-block;
@@ -587,16 +589,17 @@ section{/* 方眼背景*/
 
 .pro_flame_row{
   width: 760px;
+  height: auto;
   margin: 0 auto;
 }
 .pro_left{
-  float: left;
+  float: right;
   width: 260px;
   padding: 20px 10px;
   background-color: #ffffff;
 }
 .pro_right{
-  float: left;
+  float: right;
   width: 450px;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -672,7 +675,22 @@ section{/* 方眼背景*/
 	transform:rotate(5deg);
 }
 .pro_l_text2{
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
+}
+.pro_l_text3{
+  margin: 10px 0 20px 0;
+  text-align: left;
+}
+.pro_l_days1{
+  width: auto;
+  margin-right: 10px;
+  padding: 2px;
+  background-color: #e5e5e5;
+}
+.pro_l_site{
+  width: auto;
+  margin-right: 10px;
+  padding: 2px;
 }
 .pro_r_title{
   margin-bottom: 5px;
