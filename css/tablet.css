@@ -627,8 +627,9 @@ section{/* 方眼背景*/
 .pro_head:before {left: 7px;}
 .pro_head:after {right: 7px;}
 .pro_left{
-  width: 260px;
-  padding: 20px 10px;
+  width: auto;
+  margin: 0 auto;
+  padding: 0px 10px;
   background-color: #ffffff;
 }
 .pro_right{
@@ -677,16 +678,17 @@ section{/* 方眼背景*/
   border: solid 1px #000;
 }
 .paper{
-	width:200px;
+  display: none;
+/*	width:200px;
 	height:auto;
 	padding:15px 10px 10px 10px;
 	border:1px solid #e5e5e5;
 	background:#fff;
 	border-radius:2px;
 	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
-	position:relative;
+	position:relative;*/
 }
-.paper:before,
+/*.paper:before,
 .paper:after{
 	content:"";
 	display:block;
@@ -707,7 +709,7 @@ section{/* 方眼背景*/
 .paper:after{
 	-webkit-transform:rotate(5deg);
 	transform:rotate(5deg);
-}
+}*/
 .thumbnail img{
   width: 30%;
 }
@@ -716,7 +718,7 @@ section{/* 方眼背景*/
 }
 .pro_l_text3{
   margin: 10px 0 20px 0;
-  text-align: left;
+  text-align: center;
 }
 .pro_l_days1{
   width: auto;
