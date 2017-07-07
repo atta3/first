@@ -477,7 +477,7 @@ section{/* 方眼背景*/
   padding: 0px;
   margin: 0px 5px 20px 5px;
   background-color: #ffffff;
-  width: 230px;
+  width: 100%;
   height: 340px;
   text-align: center;
   border-radius: 12px;
@@ -563,6 +563,235 @@ section{/* 方眼背景*/
 .pro_more a{
   color: #000000;
 }
+
+/* ▽ページトップボタン▽*/
+.page_navi{
+  width: 100%;
+  height: 20px;
+  background-color: #E9C500;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+
+/* ▽商品ページ▽*/
+
+.pro_flame_row{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+.pro_head{
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px #e5e5e5;
+  border-bottom: solid 2px #e5e5e5;
+  font-size: 140%;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.pro_head:before, .pro_head:after{
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: #e5e5e5;
+}
+.pro_head:before {left: 7px;}
+.pro_head:after {right: 7px;}
+.pro_left{
+  width: auto;
+  padding: 20px 10px;
+  background-color: #ffffff;
+}
+.pro_right{
+  width: auto;
+  padding: 20px 10px;
+  background-color: #ffffff;
+}
+.pro_flame{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6); 
+}
+.pro_l_title{
+  width: auto;
+  height: 25px;
+  padding-top: 4px;
+  border-bottom: solid 3px #e5e5e5;
+  line-height: 25px;
+  font-size: 120%;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+
+.pro_photo{
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.pro_photo_in{
+  margin: 0 auto;
+  padding: 0px;
+  width: 240px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid 1px #000;
+}
+.paper{
+	width:200px;
+	height:auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding:15px 10px 10px 10px;
+	border:1px solid #e5e5e5;
+	background:#fff;
+	border-radius:2px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
+	position:relative;
+}
+.paper:before,
+.paper:after{
+	content:"";
+	display:block;
+	width:auto;height:100%;
+	border:1px solid #000;
+	background:#fff;
+	border-radius:2px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.paper:before{
+	-webkit-transform:rotate(-5deg);
+	transform:rotate(-5deg);
+}
+.paper:after{
+	-webkit-transform:rotate(5deg);
+	transform:rotate(5deg);
+}
+.thumbnail img{
+  width: 22%;
+}
+.pro_l_text2{
+  margin: 10px 0 30px 0;
+}
+.pro_l_text3{
+  margin: 10px 0 20px 0;
+  text-align: left;
+}
+.pro_l_days1{
+  width: auto;
+  margin-right: 10px;
+  padding: 2px;
+  background-color: #e5e5e5;
+}
+.pro_l_site{
+  width: auto;
+  margin-right: 10px;
+  padding: 2px;
+}
+.pro_r_title{
+  width: auto;
+  margin-bottom: 5px;
+  border-bottom: solid 5px #e5e5e5;
+  font-size: 120%;
+  text-align: left;
+}
+.pro_r_title:before{
+  width: auto;
+  height: 5px;
+  line-height: 25px;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+.pro_r_title1{
+  width: auto;
+  margin: 0px 0px 0 0;
+  padding: 2px 0 0 0;
+  line-height: center;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.pro_r_title2{
+  width: auto;
+  margin: 0px 0px 0 0;
+  padding: 2px 0 0 0;
+  line-height: center;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.pro_r_title3{
+  width: auto;
+  margin: 0px 0px 0 0;
+  padding: 2px 0 0 0;
+  line-height: center;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.pro_r_text1{
+  width: auto;
+  height: auto;
+  margin: 0px 0px 20px 0;
+  text-align: left;
+  font-size: 140%;
+}
+.pro_r_text2{
+  width: auto;
+  height: auto;
+  margin: 0px 0px 20px 0;
+  text-align: left;
+}
+.pro_r_text3{
+  width: auto;
+  height: auto;
+  margin: 0px 0px 20px 0;
+  text-align: left;
+}
+.pro_r_text4{
+  width: auto;
+  height: auto;
+  margin: 0px 0px 20px 0;
+  text-align: left;
+  line-height: 2em;
+}
+.word_b{
+   word-break: break-all; 
+}
+.pro_r_site{
+  margin-right: 10px;
+  padding: 2px;
+  background-color: #e5e5e5;
+}
+table.pro_table1{
+        border-collapse: collapse;
+    }
+table.pro_table1 tr{
+        border-color: #e5e5e5;
+        border-style: solid;
+        border-width: 1px 0;
+    }
+table.pro_table1 th{
+  width: 120px;
+  font-weight: normal;
+  text-align: center;
+}
+
 
 
 
