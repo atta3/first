@@ -532,13 +532,13 @@ section{/* 方眼背景*/
   width: 100%;
   margin: 0 auto;
 }
-.pro_flame{
+.pro_flame_list{
   display: inline-block;
   padding: 0px;
   margin: 0px 5px 20px 5px;
   background-color: #ffffff;
-  width: 230px;
-  height: 340px;
+  width: 260px;
+  height: auto;
   text-align: center;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -549,24 +549,14 @@ section{/* 方眼背景*/
   margin: 0 auto;
   padding: 10px;
   width: 90%;
-  height: 160px;
+  height: auto;
   background-color: #ffffff;
 }
-.pro_photo img{
-  width: 100%;
-}
-.pro_photo_in{
-  margin: 0 auto;
-  width: 200px;
-  height: 170px;
-  background-color: #ffffff;
-  border: solid 1px #000;
-}
+
 .paper{
-	width:160px;height:120px;
+	width:90%;
+	height:auto;
 	margin: 10px;
-	padding:15px;
-	border:1px solid #e5e5e5;
 	background:#fff;
 	border-radius:2px;
 	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
@@ -574,10 +564,10 @@ section{/* 方眼背景*/
 }
 .paper:before,
 .paper:after{
+  width: 100%;
+  height: 100%;
 	content:"";
 	display:block;
-	width:auto;height:auto;
-	border:1px solid #000;
 	background:#fff;
 	border-radius:2px;
 	box-shadow:1px 1px 3px rgba(0,0,0,0.5);
@@ -602,7 +592,6 @@ section{/* 方眼背景*/
   line-height: 25px;
   color: #000000;
   background-color: #e5e5e5;
-  top: 10px;
   clear: both;
 }
 .pro_comment{
@@ -616,7 +605,7 @@ section{/* 方眼背景*/
   position: absolute;
   width: 130px;
   right: 0px;
-  bottom: 0px;
+  bottom: 10px;
   padding-right: 2px;
   text-align: right;
 }
@@ -715,17 +704,16 @@ section{/* 方眼背景*/
   border: solid 1px #000;
 }
 .paper{
-  display: none;
-/*	width:200px;
+	width:200px;
 	height:auto;
 	padding:15px 10px 10px 10px;
 	border:1px solid #e5e5e5;
 	background:#fff;
 	border-radius:2px;
 	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
-	position:relative;*/
+	position:relative;
 }
-/*.paper:before,
+.paper:before,
 .paper:after{
 	content:"";
 	display:block;
@@ -746,7 +734,7 @@ section{/* 方眼背景*/
 .paper:after{
 	-webkit-transform:rotate(5deg);
 	transform:rotate(5deg);
-}*/
+}
 .thumbnail img{
   width: 30%;
 }
