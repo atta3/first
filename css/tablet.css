@@ -352,6 +352,13 @@ ul.pro_nav li a:active{
   opacity: 0.7;
 }
 
+/*スポンサー*/
+
+.sponsor{
+  width: auto;
+  height: 100px;
+}
+
 
 /* Footer
 ------------------------------------------------------------*/
@@ -509,6 +516,91 @@ nav#breadcrumbs ol li:first-child:before {
   height: auto;
 }
 
+
+/* ▽ページ送り▽*/
+.page_navi{
+  background-color: #E9C500;
+}
+.page_navi_dt{
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+.page_navi_dt li{
+  display: inline-block;
+}
+.page_navi_dt a{
+  display: block;
+  text-decoration: none;
+}
+ul.page_navi_dt li:hover{
+  background: #C6191E;
+}
+ul.page_navi_dt li a{
+  color: #000;
+}
+ul.page_navi_dt li a:visited{
+  color: #ffffff;
+}
+ul.page_navi_dt li a:hover{
+  color: #ffffff;
+}
+ul.page_navi_dt li a:active{
+  color: #ffffff;
+}
+.page_navi_ot{
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 10px 0px; 
+}
+.page_navi_po{
+  color: #000;
+}
+.current{
+  width: 30px;
+  height: 30px;
+  background-color: #C6191E;
+  color: #ffffff;
+  line-height: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 10px 3px; 
+}
+.page_navi_pn{
+  width: 120px;
+  height: 30px;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 10px 3px; 
+}
+.page_navi_pn:hover{
+  background: #C6191E;
+}
+.page_navi_p:before {
+font-family: FontAwesome;
+content: "\f104";
+font-size: 120%;
+margin-right: 10px;
+}
+.page_navi_n:after {
+font-family: FontAwesome;
+content: "\f105";
+font-size: 120%;
+margin-left: 10px;
+}
+
+
+
+
 /* ▽方眼▽*/
 section{/* 方眼背景*/
     background-color: #FFF;
@@ -612,17 +704,6 @@ section{/* 方眼背景*/
 .pro_more a{
   color: #000000;
 }
-
-
-/* ▽ページトップボタン▽*/
-.page_navi{
-  width: 100%;
-  height: 20px;
-  background-color: #E9C500;
-  padding: 0px;
-  margin-bottom: 10px;
-}
-
 
 /* ▽商品ページ▽*/
 
