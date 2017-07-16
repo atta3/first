@@ -431,7 +431,9 @@ border-radius: 50%;
 
 
 /* ▽商品ナビゲーション▽*/
-
+#pro_navi_head_none{
+  display: none;
+}
 .pro_nav_head_row{
   width: 100%;
   margin: 0 auto;
