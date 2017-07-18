@@ -56,39 +56,38 @@ img{
 {
 
 h1 {
-position: relative;
-background: #f4f4f4;
-padding: 2px 5px 2px 20px;
-font-size: 20px;
-color: #000;
-border-radius: 0 10px 10px 0;
-width: 300px;
-margin: 0 auto;
-margin-top: 30px;
+  position: relative;
+  background: #f4f4f4;
+  padding: 2px 5px 2px 20px;
+  font-size: 20px;
+  color: #000;
+  border-radius: 0 10px 10px 0;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  right: -10px;
 }
 
 h1:before {
-font-family: FontAwesome;
-content: "\f2b6";
-display: inline-block;
-line-height: 40px;
-position: absolute;
-padding: 0em;
-color: white;
-background: #C6191E;
-font-weight: normal;
-width: 40px;
-text-align: center;
-height: 40px;
-line-height: 40px;
-left: -1.35em;
-top: 50%;
--moz-transform: translateY(-50%);
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-border-radius: 50%;
-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.29);
+  display: inline-block;
+  line-height: 40px;
+  position: absolute;
+  padding: 0em;
+  color: white;
+  background: #C6191E;
+  font-weight: normal;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  left: -1.35em;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.29);
 }
 
 
@@ -184,6 +183,10 @@ neck{
 ul.nav{
   padding: 5px;
   margin-top: 0px;
+}
+.nav a{
+  display: block;
+  text-decoration: none;
 }
 ul.nav li{
   display: inline-block;
@@ -458,6 +461,10 @@ ul.pro_nav_head{
   margin: 0 auto;
   margin-top: 10px;
 }
+.pro_nav_head a{
+  display: block;
+  text-decoration: none;
+}
 ul.pro_nav_head li{
   display: inline-block;
   background: #C6191E;
@@ -537,16 +544,16 @@ ul.page_navi_dt li:hover{
   background: #C6191E;
 }
 ul.page_navi_dt li a{
-  color: #000;
+  color: #000000;
 }
 ul.page_navi_dt li a:visited{
-  color: #ffffff;
+  color: #000000;
 }
 ul.page_navi_dt li a:hover{
-  color: #ffffff;
+  color: #000000;
 }
 ul.page_navi_dt li a:active{
-  color: #ffffff;
+  color: #000000;
 }
 .page_navi_ot{
   width: 30px;
@@ -936,6 +943,10 @@ table.pro_table1 th{
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
+}
+#con_h1:before {
+  font-family: FontAwesome;
+  content: "\f2b6";
 }
 .con_box{
   width: 80%;
