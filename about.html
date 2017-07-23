@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>atta-アッタ- 重度障害者に役立ちそうなものを紹介するサイト</title>
+    <meta name="description" content="ここAtta(アッタ)は、主に重度身体障害者に役立ちそうなものを紹介しているサイトです。福祉機器だけではなく、一般に売られている便利そうなものも取り上げていますので、ぜひ、自分にアッタものを見つけてみてください！">
+    <meta name="keywords" content="重度障害者, 身体障害者, 障害者, 福祉機器, 福祉用具,支援機器,サポート,補助,道具,自助具,">
+	<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/smart.css">
+	<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" type="text/css">
+    <!-- carousel -->
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+	    <!-- Owl Carouselを動作させるために追加 -->
+        <script src="carousel.js"></script>
+</head>
+<body>
+<header>
+        <div class="h_all">
+            <div class="row">
+	            <div class="logo">
+	                <a href="http://www.atta-atta-atta.com"><img src="images/logo.png" alt="atta-アッタ-（ロゴ）" srcset="images/logo@2x.png 2x" /></a>
+	            </div><!-- logo -->
+	            <div class="description">
+	            	<p>ここAtta(アッタ)は、主に重度身体障害者に役立ちそうなものを紹介しているサイトです。</br>
+	            	福祉機器だけではなく、一般に売られている便利そうなものも取り上げていますので、ぜひ、自分にアッタものを見つけてみてください！</p>
+	            </div><!--description-->
+	            <div class="top_navi_row">
+	            <ul class="top_navi">
+	                <a href="sitemap.html"><li id="sitemap">サイトマップ</li></a>
+	                <a href="contact.html"><li id="contact">お問い合わせ</li></a>
+	                <div class="top_navi_search">
+	                	<form  id="searchform1" method="get" action="http://www.google.co.jp/search" target="_blank">
+	                	<input id="keywords1" name="q" size="31" maxlength="255" value="" type="text">
+	                	<input name="btng" value="検索" type="submit">
+	                	<input name="hl" value="ja" type="hidden">
+	                	<input name="sitesearch" value="atta-atta-atta.com" type="hidden">
+						</form>
+	                </div>
+	            </ul><!-- top_navi -->
+	            </div>
+	        </div><!-- row -->
+	    </div><!-- h_all -->
+</header>
+
+<!--ネック-->
+<neck>
+	<ul class="nav">
+		<li id="nav_dot"><a href="prodcts.html">どんな商品がある？</a></li>
+		<li id="nav_dot"><a href="company.html">どんな会社がある？</a></li>
+		<li id="nav_dot"><a href="system.html">制度利用で買える？</a></li>
+	</ul>
+</neck>
+
+<!--メイン-->
+<main>
+
+<!--パンくずリスト-->	
+<nav id="breadcrumbs">
+<div class="breadcrumbs_in">
+  <ol>
+    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a itemprop="url" href="http://www.atta-atta-atta.com"><span itemprop="title">トップページ</span></a>
+    </li>
+    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <span itemprop="title">お問い合わせ</span>
+    </li>
+  </ol>
+</div><!--breadcrumbs-->
+</nav><!--breadcrumbs-->
+
+<!--方眼-->
+<section>
+	<div class="pro_flame_row">
+		<div class="con_flame">
+			<h1 id="con_h1">お問合せ</h1>
+			<div id="con_desc">当サイトへの質問・ご意見、<br />その他「こんな商品あるよ！」など気軽にメッセージくだされば嬉しいです♪</div>
+			<div class="con_box">
+				<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
+				<table id="mailform" border="0" cellspacing="0" cellpadding="0" class="mailform">
+					<tr>
+						<th>お名前<span>*</span><p>your name</p></th>
+						<td><input type="text" name="お名前(必須)" size="30" /><span id="con_text">ペンネームでもOK!</span></td>
+					</tr>
+					<tr>
+						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
+						<td><input class="con_email"  type="text" name="email(必須)" size="40" maxlength="50" class="mf" /><span id="con_text">半角英数字</span></td>
+					</tr>
+					<tr>
+						<th>ご用件<span>*</span><p>inquiry body</p></th>
+						<td><textarea name="ご用件(必須)" rows="10" cols="70" width="90%"/></textarea></td>
+					</tr>
+					<tr>
+						<th><span>*</span>は必須項目です。</th>
+						<td><input type="submit" value="メールを送信する" /> <input type="reset" name="reset" value="リセット" /></td>
+					</tr>
+				</table>
+			</form>
+			<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+			<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+			</div>
+			
+		</div>
+	</div>
+</section>
+</main>
+<div class="page_navi"></div>
+<p id="pageTop"><a href="#">上に戻る</a></p>
+<!--フッター-->
+<footer>
+	<div class="f-link">
+		<div class="f_link_po"><a href="about.html" class="f_link_deco">attaについて</a></div>
+		<div class="f_link_po"><a href="contact.html" class="f_link_deco">お問い合わせ</a></div>
+		<div class="f_link_po"><a href="sitemap.html" class="f_link_deco">サイトマップ</a></div>
+	</div>
+	<div class="copyright">©Copyright 2017 atta-アッタ-</div>
+</footer>
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="pagetop.js"></script>
+</body>
+</html>
+
