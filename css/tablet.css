@@ -132,6 +132,9 @@ ul.top_navi{
   margin: 0px;
   padding: 0px 5px 5px 5px;
 }
+.top_navi a{
+  text-decoration: none;
+}
 ul.top_navi li{
   line-height: 30px;
   margin: 0px 5px 5px 5px;
@@ -727,7 +730,7 @@ section{/* 方眼背景*/
   font-size: 140%;
   width: auto;
   margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px 10px 0px 10px;
 }
 .pro_head:before, .pro_head:after{
   content: '';
@@ -744,12 +747,10 @@ section{/* 方眼背景*/
   width: auto;
   margin: 0 auto;
   padding: 0px 10px;
-  background-color: #ffffff;
 }
 .pro_right{
   width: auto;
   padding: 20px 10px;
-  background-color: #ffffff;
   
 }
 .pro_flame{
@@ -792,6 +793,7 @@ section{/* 方眼背景*/
   border: solid 1px #000;
 }
 .paper{
+  display: none;
 	width:200px;
 	height:auto;
 	padding:15px 10px 10px 10px;
@@ -833,6 +835,10 @@ section{/* 方眼背景*/
   margin: 10px 0 20px 0;
   text-align: center;
 }
+.pro_l_text4{
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
 .pro_l_days1{
   width: auto;
   margin-right: 10px;
@@ -857,62 +863,31 @@ section{/* 方眼背景*/
   color: #000000;
   background-color: #e5e5e5;
 }
-.pro_r_title1{
+.pro_r_title1,.pro_r_title2,.pro_r_title3,.pro_r_title4{
   width: 170px;
   float: left;
   margin: 0px 15px 0 0;
   padding: 2px 0 0 0;
-  line-height: center;
   background-color: #e5e5e5;
   text-align: center;
 }
-.pro_r_title2{
-  width: 170px;
-  float: left;
-  margin: 0px 15px 0 0;
-  padding: 2px 0 0 0;
-  line-height: center;
-  background-color: #e5e5e5;
-  text-align: center;
-}
-.pro_r_title3{
-  width: 170px;
-  float: left;
-  margin: 0px 15px 0 0;
-  padding: 2px 0 0 0;
-  line-height: center;
-  background-color: #e5e5e5;
-  text-align: center;
-}
-.pro_r_text1{
-  width: 100%;
+.pro_r_text1,.pro_r_text2,.pro_r_text3,.pro_r_text4{
+  width: 98%;
   height: auto;
+  padding-left: 5px;
   margin: 0px 0px 20px 0;
   text-align: left;
+}
+.pro_r_text1 p{
+  display: block;
+  margin-top: -4px;
   font-size: 140%;
 }
-.pro_r_text2{
-  width: 100%;
-  height: auto;
-  margin: 0px 0px 20px 0;
-  text-align: left;
-}
-.pro_r_text3{
-  width: 100%;
-  height: auto;
-  margin: 0px 0px 20px 0;
-  text-align: left;
-}
-.pro_r_text4{
-  width: 100%;
-  height: auto;
-  margin: 0px 0px 20px 0;
-  text-align: left;
-  line-height: 2em;
-}
 .pro_r_site{
+  display: inline-block;
   width: auto;
   margin-right: 10px;
+  margin-bottom: 3px;
   padding: 2px;
   background-color: #e5e5e5;
 }
