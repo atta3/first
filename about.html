@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/smart.css">
-	<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png" type="text/css">
     <!-- carousel -->
@@ -24,6 +23,8 @@
         <script src="owlcarousel/owl.carousel.min.js"></script>
 	    <!-- Owl Carouselを動作させるために追加 -->
         <script src="carousel.js"></script>
+        
+        <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
 </head>
 <body>
 <header>
@@ -74,7 +75,7 @@
       <a itemprop="url" href="http://www.atta-atta-atta.com"><span itemprop="title">トップページ</span></a>
     </li>
     <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-      <span itemprop="title">お問い合わせ</span>
+      <span itemprop="title">attaについて</span>
     </li>
   </ol>
 </div><!--breadcrumbs-->
@@ -82,35 +83,32 @@
 
 <!--方眼-->
 <section>
-	<div class="pro_flame_row">
-		<div class="con_flame">
-			<h1 id="con_h1">お問合せ</h1>
-			<div id="con_desc">当サイトへの質問・ご意見、<br />その他「こんな商品あるよ！」など気軽にメッセージくだされば嬉しいです♪</div>
-			<div class="con_box">
-				<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
-				<table id="mailform" border="0" cellspacing="0" cellpadding="0" class="mailform">
-					<tr>
-						<th>お名前<span>*</span><p>your name</p></th>
-						<td><input type="text" name="お名前(必須)" size="30" /><span id="con_text">ペンネームでもOK!</span></td>
-					</tr>
-					<tr>
-						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
-						<td><input class="con_email"  type="text" name="email(必須)" size="40" maxlength="50" class="mf" /><span id="con_text">半角英数字</span></td>
-					</tr>
-					<tr>
-						<th>ご用件<span>*</span><p>inquiry body</p></th>
-						<td><textarea name="ご用件(必須)" rows="10" cols="70" width="90%"/></textarea></td>
-					</tr>
-					<tr>
-						<th><span>*</span>は必須項目です。</th>
-						<td><input type="submit" value="メールを送信する" /> <input type="reset" name="reset" value="リセット" /></td>
-					</tr>
-				</table>
-			</form>
-			<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
-			<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+	<div class="flame_row">
+		<div class="abo_flame">
+			<h1 id="abo_h1">attaについて</h1>
+			<h2 class="abo_h2">atta（アッタ）サイト名の由来</h2>
+			<div class="abo_text">世界中のどこかで毎日新しいものが発明されています！<br />
+			その中には自分の障害の不自由さを解消してくれるモノがあるかもしれません♪<br />
+			存在して「有ッタ☆」<br />
+			巡り会えて「会ッタ☆」<br />
+			自分に合って「合ッタ☆」<br />
 			</div>
-			
+			<div class="abo_mes" id="wf-roundedmplus1c">あなたも自分にアッタものを探してみませんか？</div>
+			<a href="http://www.atta-atta-atta.com"><img src="images/logo.png" alt="atta-アッタ-（ロゴ）" srcset="images/logo@2x.png 2x" /></a>
+			<h2 class="abo_h2">attaサイトの紹介する商品･会社について</h2>
+			<p>当サイトに掲載されている商品･会社は、主にインターネットで集めた情報です。<br />
+			紹介されている商品の性能･機能･安全性等を当サイトは一切保証いたしません。<br />
+			ご使用の際は、メーカーサイトをよくご確認の上、ご自分の状態に合った商品をご使用ください。<br /></p>
+			<h2 class="abo_h2">管理人の紹介</h2>
+			<p>名前“いずみ”<br />
+			脊髄性筋萎縮症により全介助です！<br />
+			現在は、地域にて24時間の介護をしてもらいながら生活中♪<br />
+			人さし指だけでパソコン操作をして当サイト“atta（アッタ）”を作りました☆<br />
+			世界ではたくさんの便利な商品がこれからもどんどん生み出されていきます。<br />
+			しかし、存在を知らなければ無かったことと同じこと。<br />
+			使うべき人が使うべき時に優れた商品を使えることを心より願っております。<br />
+			みなさんが「アッタ！」と叫べますように♪<br />
+			もしなにか当サイトについてお気づきのことがありましたらお気軽にご連絡ください！<br /><br /></p>
 		</div>
 	</div>
 </section>
