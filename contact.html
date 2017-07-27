@@ -106,7 +106,7 @@
 				<table id="mailform" border="0" cellspacing="0" cellpadding="0" class="mailform">
 					<tr>
 						<th>お名前<span>*</span><p>your name</p></th>
-						<td><input type="text" name="お名前(必須)" size="30" /><span id="con_text">ペンネームでもOK!</span></td>
+						<td><input class="con_name" type="text" name="お名前(必須)" size="40" /><span id="con_text">ペンネームでもOK!</span></td>
 					</tr>
 					<tr>
 						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
@@ -123,22 +123,6 @@
 				</table>
 				</form>
 			</div><!--con_box-->
-			<div class="con_box2">
-			<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
-				<div class="mailform">
-					<dl>
-						<dt>お名前<span>*</span><p>your name</p></dt>
-						<dd><input class="con_name" type="text" name="お名前(必須)" size="30" /><span class="con_text">ペンネームでもOK!</span></dd>
-						<dt>メールアドレス<span>*</span><p>e-mail address</p></dt>
-						<dd><input class="con_email"  type="text" name="email(必須)" size="40" maxlength="50"/><span class="con_text">半角英数字</span></dd>
-						<dt>ご用件<span>*</span><p>inquiry body</p></dt>
-						<dd><textarea name="ご用件(必須)" rows="10" cols="70" width="90%"/></textarea></dd>
-						<dt><span>*</span>は必須項目です。</dt>
-						<dd><input type="submit" value="メールを送信する" /> <input type="reset" name="reset" value="リセット" /></dd>
-					</dl>
-				</div>
-			</form>
-			</div><!--con_box2-->
 		</div><!--con_flame-->
 	</div><!--pro_flame_row-->
 </section>

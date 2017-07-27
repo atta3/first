@@ -988,74 +988,42 @@ table.pro_table1 th{
   font-family: FontAwesome;
   content: "\f003";
 }
+.con_desc{
+  margin: 0 auto;
+  text-align: center;
+  margin: 10px;
+}
 .con_box{
   width: 80%;
   margin: 0 auto;
   padding: 20px;
   border: solid 1px #e5e5e5;
 }
-.con_desc{
-  margin: 0 auto;
-  text-align: center;
-  margin: 10px;
+.con_name{
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
 }
 .con_text{
   margin-left: 10px;
 }
-.con_name{
-    width: 100%;
-    max-width: 400px;
-    box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-}
 .con_email{
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     box-sizing: border-box;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
 }
 textarea {
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     box-sizing: border-box;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
 }
 
-
-.con_box2{
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  border: solid 1px #e5e5e5;
-}
-#con_text{
-  margin-left: 10px;
-}
-#con_desc{
-  margin: 0 auto;
-  text-align: center;
-  margin: 10px;
-}
-.mailform2{
-  width: 90%;
-}
-.con_email{
-    width: 100%;
-    max-width: 160px;
-    box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-}
-textarea {
-    width: 100%;
-    max-width: 160px;
-    box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-}
 
 
 /*▽サイトマップページ▽*/
@@ -1183,7 +1151,32 @@ ul#sima_list li ul li a{
 }
 
 
+}
 
 
 
+/* スマホ(小) */
+@media (max-width: 320px)/* 320px以下 */
+{
+.con_name{
+    width:70%;
+    max-width: 120px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+.con_email{
+    width:70%;
+    max-width: 120px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    max-width: 120px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
 }

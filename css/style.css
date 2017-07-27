@@ -1028,17 +1028,17 @@ table.pro_table1 th{
   font-family: FontAwesome;
   content: "\f003";
 }
+.con_desc{
+  margin: 30px 0 30px 0;
+}
 .con_box{
   width: 80%;
   margin: 0 auto;
   padding: 20px;
   border: solid 1px #e5e5e5;
 }
-#con_text{
+.con_text{
   margin-left: 10px;
-}
-#con_desc{
-  margin: 30px 0 30px 0;
 }
 
 

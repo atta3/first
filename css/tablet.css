@@ -967,19 +967,19 @@ table.pro_table1 th{
   font-family: FontAwesome;
   content: "\f003";
 }
+.con_desc{
+  margin: 0 auto;
+  text-align: center;
+  margin: 10px;
+}
 .con_box{
   width: 80%;
   margin: 0 auto;
   padding: 20px;
   border: solid 1px #e5e5e5;
 }
-#con_text{
+.con_text{
   margin-left: 10px;
-}
-#con_desc{
-  margin: 0 auto;
-  text-align: center;
-  margin: 10px;
 }
 .con_email{
     width: 100%;
@@ -995,7 +995,6 @@ textarea {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
 }
-
 
 
 /*▽サイトマップページ▽*/
@@ -1110,6 +1109,13 @@ ul#sima_list li ul li a{
 /* タブレット */
 @media  print, screen and (min-width: 415px) and (max-width: 650px)/* 414px以上  768px以下 */
 {
+.con_name{
+    width:70%;
+    max-width: 150px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
 .con_email{
     width:70%;
     max-width: 150px;
