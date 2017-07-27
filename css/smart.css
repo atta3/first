@@ -559,9 +559,14 @@ nav#breadcrumbs{
   padding: 0px;
   margin-bottom: 10px;
 }
+nav#breadcrumbs ol {
+  padding: 5px 15px;
+  margin-top: 20px;
+}
 nav#breadcrumbs ol li {
   display: inline;
   list-style-type: none;
+  margin: 0;
 }
 nav#breadcrumbs ol li:before {
   content: " > ";
@@ -572,6 +577,7 @@ nav#breadcrumbs ol li:first-child:before {
 .breadcrumbs_in{
   margin: 0 auto;
   width: 100%;
+  padding: 0;
   text-align: left;
   height: auto;
 }
