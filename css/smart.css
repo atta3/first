@@ -108,7 +108,7 @@ h2{
 }
 .h_all{
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .row{
   width: 100%;
@@ -354,14 +354,14 @@ ul.pro_nav li{
   display: inline-block;
   background: #C6191E;
   color: #ffffff;
-  width: 180px;
-  height: 70px;
+  width: 240px;
+  height: 40px;
   text-align: center;
-  line-height: 70px;
+  line-height: 40px;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
-  margin:0 0px 18px 0;
+  margin:0 0px 10px 0;
   border-style: double;
   border-color: #ffffff;
   border-width: medium;
