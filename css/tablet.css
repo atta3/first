@@ -233,6 +233,15 @@ ul.nav li a:active{
   color: #E9C500;
 }
 
+/* ▽smartphone▽*/
+.sma_sns_nav{
+  display: none;
+}
+.sma_nav{
+  display: none;
+}
+
+
 /* メイン　main
 ------------------------------------------------------------*/
 

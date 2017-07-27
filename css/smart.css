@@ -121,10 +121,11 @@ h2{
   width: 240px;
 }
 .description{
-  width: 96%;
+  width: 95%;
   margin: 0 auto;
   font-size: 80%;
-  padding-left: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .top_navi{
   list-style: none;
@@ -228,7 +229,7 @@ ul.sma_sns_nav li a:active{
   color: #E9C500;
 }
 
-/* ▽nav*/
+/* ▽nav▽*/
 ul.sma_nav{
   padding: 0px;
   padding-bottom: 5px;
@@ -668,31 +669,6 @@ section{/* 方眼背景*/
   margin: 0 auto;
 }
 
-
-
-/* ▽方眼▽*/
-section{/* 方眼背景*/
-    background-color: #FFF;
-    min-height: 418px;
-    padding: 10px 10px 10px 10px;
-    background-image:
-        -webkit-linear-gradient(
-            transparent 95%,
-            rgba(77, 77, 77, .2) 70%,
-            rgba(77, 77, 77, .2)),
-        -webkit-linear-gradient(
-            0deg, transparent 95%,
-            rgba(77, 77, 77, .2) 70%,
-            rgba(77, 77, 77, .2)
-            );
-    background-size: 20px 20px;
-    background-repeat: repeat;
-    margin: 10px 0px;
-}
-.pro_flame_row{
-  width: 100%;
-  margin: 0 auto;
-}
 .pro_flame_list{
   display: inline-block;
   padding: 0px;
@@ -1018,6 +994,43 @@ table.pro_table1 th{
   padding: 20px;
   border: solid 1px #e5e5e5;
 }
+.con_desc{
+  margin: 0 auto;
+  text-align: center;
+  margin: 10px;
+}
+.con_text{
+  margin-left: 10px;
+}
+.con_name{
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+.con_email{
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+
+
+.con_box2{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid 1px #e5e5e5;
+}
 #con_text{
   margin-left: 10px;
 }
@@ -1025,6 +1038,9 @@ table.pro_table1 th{
   margin: 0 auto;
   text-align: center;
   margin: 10px;
+}
+.mailform2{
+  width: 90%;
 }
 .con_email{
     width: 100%;
