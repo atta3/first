@@ -124,16 +124,16 @@ header{
 }
 .description{
   float: left;
-  width: 50%;
+  width: 44%;
   font-size: 80%;
-  margin: 0px 10px;
-  padding: 0px;
+  margin: 0;
 }
-ul.top_navi{
+.top_navi{
   list-style: none;
-  width: 140px;
-  margin: 0px;
-  padding: 0px 5px 5px 5px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 .top_navi a{
   text-decoration: none;
@@ -141,39 +141,48 @@ ul.top_navi{
 ul.top_navi li{
   line-height: 30px;
   margin: 0px 5px 5px 5px;
-  background-color: #0075B4;
-  color: #fff;
   text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
 }
-ul.top_navi li:hover{
-  background: #E9C500;
+/* snsフォロー*/
+.sns_follow{
+  width: 150px;
+  height: 30px;
+  margin: 10px 5px 15px 10px;
+  padding-left: 5px;
+  text-align: center;
 }
-ul.top_navi li a{
-  text-decoration: none;
-  color: #ffffff;
+.sns_follow li{
+  display: inline-block;
+  width: 22%;
+  font-size: 150%;
 }
-ul.top_navi li a:visited{
-  color: #ffffff;
+.fa-facebook-square{
+  color: #315096;
+  width: auto;
+  height: 40px;
 }
-ul.top_navi li a:hover{
-  color: #000000;
+.fa-twitter-square{
+  color: #55acee;
+  width: auto;
+  height: 40px;
 }
-ul.top_navi li a:active{
-  color: #E9C500;
-}
-.top_navi_search{
-  margin-top: 0px;
+.fa-rss-square{
+  color: #ff8c00;
+  width: auto;
+  height: 40px;
 }
 /* 検索フォーム*/
+.top_navi_search{
+  width: 180px;
+  margin-top: 0px;
+  padding: 0;
+}
 #searchform1{
   position: relative;
   margin: 0px;
 }
 #keywords1{  
-    width: 80px;  
+    width: 90px;  
     height: 22px;   
     border: 1px solid #0075B4;  
     padding: 2px 0px 2px 2px;
@@ -947,7 +956,7 @@ table.pro_table1 th{
 }
 #con_h1:before {
   font-family: FontAwesome;
-  content: "\f2b6";
+  content: "\f003";
 }
 .con_box{
   width: 80%;

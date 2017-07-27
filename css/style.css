@@ -142,34 +142,53 @@ ul.top_navi{
   text-decoration: none;
 }
 ul.top_navi li{
+  display: block;
+  width: 40px;
   line-height: 30px;
-  margin: 0px 5px 5px 5px;
-  background-color: #0075B4;
+  margin: 10px 5px 15px 5px;
   color: #fff;
   text-align: center;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-ul.top_navi li:hover{
-  background: #E9C500;
+/* snsフォロー*/
+ul .sns_follow{
+  width: 150px;
+  height: 30px;
+  margin: 10px 5px 15px 5px;
+  padding: 0;
+  font-size: 150%;
+  text-align: center;
 }
-ul.top_navi li a{
-  color: #ffffff;
+ul .sns_follow li{
+  display: inline-block;
+  width: 29%;
+  margin: 0;
+  color: #0075B4;
 }
-ul.top_navi li a:visited{
-  color: #ffffff;
+.fa-twitter-square{
+  font-size: 150%;
+  color: #55acee;
+  width: 40px;
+  height: 40px;
 }
-ul.top_navi li a:hover{
-  color: #000000;
+.fa-facebook-square{
+  font-size: 150%;
+  color: #315096;
+  width: 40px;
+  height: 40px;
 }
-ul.top_navi li a:active{
-  color: #E9C500;
+.fa-rss-square{
+  font-size: 150%;
+  color: #ff8c00;
+  width: 40px;
+  height: 40px;
 }
+/* 検索フォーム*/
 .top_navi_search{
   margin-top: 0px;
 }
-/* 検索フォーム*/
 #searchform1{
   position: relative;
   margin: 0px 0px 0px 5px;
@@ -998,7 +1017,7 @@ table.pro_table1 th{
 }
 #con_h1:before {
   font-family: FontAwesome;
-  content: "\f2b6";
+  content: "\f003";
 }
 .con_box{
   width: 80%;

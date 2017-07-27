@@ -126,33 +126,58 @@ h2{
   font-size: 80%;
   padding-left: 15px;
 }
-.top_navi_row{
-  margin: 0 auto;
-}
-ul.top_navi{
+.top_navi{
   list-style: none;
-  width: 240px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
   margin: 0 auto;
-  padding: 0px 5px 0px 5px;
 }
-#sitemap{
+.top_navi a{
+  text-decoration: none;
+}
+ul.top_navi li{
+  line-height: 30px;
+  margin: 0px 5px 5px 5px;
+  text-align: center;
+}
+/* snsフォロー*/
+.sns_follow{
   display: none;
+  width: 150px;
+  height: 110px;
+  margin: 10px 5px 15px 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  text-align: center;
 }
-#contact{
-  display: none;
+.fa-facebook-square{
+  color: #315096;
+  width: auto;
+  height: 10px;
 }
+.fa-twitter-square{
+  color: #55acee;
+  width: auto;
+  height: 10px;
+}
+.fa-rss-square{
+  color: #ff8c00;
+  width: auto;
+  height: 10px;
+}
+
+/* 検索フォーム*/
 .top_navi_search{
   padding-left: 0px;
   margin: 0 auto;
 }
-
-/* 検索フォーム*/
 #searchform1{
   position: relative;
   margin: 5px;
 }
 #keywords1  {  
-    width: 170px;  
+    width: 110px;  
     height: 20px;
     border: 1px solid #0075B4;
     padding: 2px 2px 2px 2px;
@@ -164,45 +189,85 @@ neck{
   width: 100%;
   text-align: center;
 }
-ul.nav{
-  padding: 5px;
+.nav{
+  display: none;
 }
-.nav a{
+
+/* ▽sns▽*/
+ul.sma_sns_nav{
+  padding: 0px;
+}
+.sma_sns_nav{
+  padding: 0px;
+  text-align: center;
+}
+.sma_sns_nav a{
   display: block;
   text-decoration: none;
 }
-ul.nav li{
+ul.sma_sns_nav li{
   display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
+  width: auto;
+  height: 24px;
+  text-align: center;
+}
+ul.sma_sns_nav li:hover{
+  background: #E9C500;
+}
+ul.sma_sns_nav li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.sma_sns_nav li a:visited{
+  color: #ffffff;
+}
+ul.sma_sns_nav li a:hover{
+  color: #E9C500;
+}
+ul.sma_sns_nav li a:active{
+  color: #E9C500;
+}
+
+/* ▽nav*/
+ul.sma_nav{
+  padding: 0px;
+  padding-bottom: 5px;
+}
+.sma_nav a{
+  display: block;
+  text-decoration: none;
+}
+ul.sma_nav li{
+  display: inline-block;
+  padding: 4px;
   margin-left: 10px;
   background: #C6191E;
   color: #ffffff;
-  width: 80%;
-  height: 24px;
+  width: 20%;
+  height: 14px;
+  line-height: 14px;
   text-align: center;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   vertical-align: middle;
 }
-ul.nav li:hover{
+ul.sma_nav li:hover{
   background: #E9C500;
 }
-ul.nav li a{
+ul.sma_nav li a{
   color: #ffffff;
   text-decoration: none;
 }
-ul.nav li a:visited{
+ul.sma_nav li a:visited{
   color: #ffffff;
 }
-ul.nav li a:hover{
+ul.sma_nav li a:hover{
   color: #E9C500;
 }
-ul.nav li a:active{
+ul.sma_nav li a:active{
   color: #E9C500;
 }
-
 /* メイン　main
 ------------------------------------------------------------*/
 
@@ -945,7 +1010,7 @@ table.pro_table1 th{
 }
 #con_h1:before {
   font-family: FontAwesome;
-  content: "\f2b6";
+  content: "\f003";
 }
 .con_box{
   width: 80%;
