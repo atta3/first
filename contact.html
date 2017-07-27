@@ -74,6 +74,8 @@
 	</ul>
 	<!--sma-->
 </neck>
+
+
 <!--メイン-->
 <main>
 
@@ -96,8 +98,10 @@
 	<div class="pro_flame_row">
 		<div class="con_flame">
 			<h1 id="con_h1">お問い合せ</h1>
-			<div class="con_desc">当サイトへの質問・ご意見、<br />その他「こんな商品あるよ！」など気軽にメッセージくだされば嬉しいです♪</div>
-				<div class="con_box">
+			<div class="con_desc">当サイトへの質問・ご意見、<br />
+			その他「こんな商品あるよ！」など気軽にメッセージくだされば嬉しいです♪
+			</div>
+			<div class="con_box">
 				<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
 				<table id="mailform" border="0" cellspacing="0" cellpadding="0" class="mailform">
 					<tr>
@@ -118,10 +122,7 @@
 					</tr>
 				</table>
 				</form>
-				<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
-				<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
-				</div><!--con_box-->
-			
+			</div><!--con_box-->
 			<div class="con_box2">
 			<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
 				<div class="mailform">
@@ -137,16 +138,14 @@
 					</dl>
 				</div>
 			</form>
-			</div>
-			<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
-			<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
-			
-		</div>
-	</div>
+			</div><!--con_box2-->
+		</div><!--con_flame-->
+	</div><!--pro_flame_row-->
 </section>
 </main>
-<div class="page_navi"></div>
+
 <p id="pageTop"><a href="#">上に戻る</a></p>
+
 <!--フッター-->
 <footer>
 	<div class="f-link">
@@ -156,8 +155,12 @@
 	</div>
 	<div class="copyright">©Copyright 2017 atta-アッタ-</div>
 </footer>
+
 <script src="jquery.min.js"></script>
 <script type="text/javascript" src="pagetop.js"></script>
+<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script> <!-- mailform -->
+<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script> <!-- mailform -->
+
 </body>
 </html>
 
