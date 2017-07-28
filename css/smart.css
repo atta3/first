@@ -383,28 +383,38 @@ ul.pro_nav li a:active{
   color: #E9C500;
 }
 
-/* 上に戻るボタン */
-#pageTop {
+/* メニューボタン */
+#manubutton {
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
+  
 }
-#pageTop a {
+#manubutton a {
   display: block;
-  z-index: 999;
+  z-index: 998;
   padding: 10px;
   border-radius: 8px;
-  width: 25px;
-  height: auto;
-  background-color: #0075B4;
+  width: 70px;
+  height: 14px;
+  line-height: 14px;
+  background-color: #C6191E;
   color: #fff;
+  box-shadow: 0px 0px 0px 2px #C6191E;
+  border: solid 1px #fff;
+  padding: 6px 10px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
 }
-#pageTop a:hover {
+#manubutton a:hover {
   text-decoration: none;
   opacity: 0.7;
+}
+
+/* 上に戻るボタン */
+#pageTop {
+  display: none;
 }
 
 
