@@ -384,15 +384,13 @@ ul.pro_nav li a:active{
 }
 
 /* メニューボタン */
-#manubutton {
+#menubutton {
+  cursor: pointer;
   position: fixed;
   top: 20px;
   right: 20px;
-  
-}
-#manubutton a {
   display: block;
-  z-index: 998;
+  z-index: 997;
   padding: 10px;
   border-radius: 8px;
   width: 70px;
@@ -407,13 +405,40 @@ ul.pro_nav li a:active{
   text-decoration: none;
   text-align: center;
 }
-#manubutton a:hover {
+#menubutton:hover {
   text-decoration: none;
-  opacity: 0.7;
+}
+.sp_menu_toggle {
+  display: none;
+  position: fixed;
+  width: auto;
+  top: 40px;
+  right: 20px;
+  z-index: 998;
+  background-color: #C6191E;
+  box-shadow: 0px 0px 0px 2px #C6191E;
+  border: solid 1px #fff;
+  padding: 0px 10px 15px 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+.sp_menu_toggle ul{
+  color: #fff;
+}
+.sp_menu_toggle li{
+  list-style: none;
+  padding-top: 15px;
+  border-bottom:1px solid #fff;
+}
+.sp_menu_toggle a{
+  color: #fff;
+  text-decoration: none;
 }
 
+
 /* 上に戻るボタン */
-#pageTop {
+#pageTop a{
   display: none;
 }
 

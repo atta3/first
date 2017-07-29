@@ -3,7 +3,7 @@
     //■page topボタン
 
     $(function(){
-    var topBtn=$('#manubutton');
+    var topBtn=$('#menubutton');
     topBtn.hide();
 
      
@@ -25,13 +25,13 @@
 
      
 
-    // ◇ボタンをクリックしたら、スクロールして上に戻る
-    topBtn.click(function(){
-      $('body,html').animate({
-      scrollTop: 0},500);
-      return false;
-
-    });
 
 
     });
+
+    // ◇ボタンをクリックしたら、メニューが開きます
+    $(document).ready(function(){
+  $("#menubutton").click(function(){
+    $(".sp_menu_toggle").slideToggle();
+  });
+});
