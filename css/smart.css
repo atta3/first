@@ -274,9 +274,12 @@ ul.sma_nav li a:active{
 ------------------------------------------------------------*/
 
 main{
+  position: relative;
   margin: 0 auto;
+  margin-top: 120px;
   width: 100%;
   text-align: center;
+  z-index: 3;
 }
 
 /* ▽カルーセル▽*/
@@ -398,6 +401,7 @@ ul.pro_nav li a:active{
   left: 0px;
   margin: 0 auto;
   background-color: #fff;
+  z-index: 996;
 }
 .sp_logo{
   margin: 20px 20px 0px 10px;
@@ -459,9 +463,6 @@ ul.pro_nav li a:active{
   color: #fff;
   text-decoration: none;
 }
-
-/*
-*/
 
 
 /* 上に戻るボタン */
@@ -615,33 +616,35 @@ ul.pro_nav_head li a:active{
 
 /* ▽パンくずリスト▽*/
 
-nav#breadcrumbs{
+#breadcrumbs{
+  position: fixed;
+  top: 75px;
   width: 100%;
   background-color: #E9C500;
-  padding: 0px;
-  margin-bottom: 10px;
+  z-index: 995;
 }
-nav#breadcrumbs ol {
-  padding: 5px 15px;
-  margin-top: 20px;
+#breadcrumbs ol {
+  padding-left: 10px;
+  font-size: 80%;
+  height: 10px;
+  line-height: 10px;
 }
-nav#breadcrumbs ol li {
-  display: inline;
+#breadcrumbs ol li {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
 }
-nav#breadcrumbs ol li:before {
+#breadcrumbs ol li:before {
   content: " > ";
 }
-nav#breadcrumbs ol li:first-child:before {
+#breadcrumbs ol li:first-child:before {
   content:"";
 }
 .breadcrumbs_in{
   margin: 0 auto;
   width: 100%;
-  padding: 0;
+  padding: 0px;
   text-align: left;
-  height: auto;
 }
 
 
