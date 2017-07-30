@@ -364,6 +364,11 @@ ul.pro_nav li a:active{
   color: #E9C500;
 }
 
+/* スマホナビ*/
+.sp_header{
+  display: none;
+}
+
 /* 上に戻るボタン */
 #pageTop {
   position: fixed;
