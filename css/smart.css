@@ -276,7 +276,7 @@ ul.sma_nav li a:active{
 main{
   position: relative;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 100px;
   width: 100%;
   text-align: center;
   z-index: 3;
@@ -465,9 +465,17 @@ ul.pro_nav li a:active{
   text-decoration: none;
 }
 
-
-
-
+.description_sp_index{
+  position: relative;
+  width: 90%;
+  height: auto;
+  top: 70px;
+  right: -10px;
+  margin: 0 auto;
+  font-size: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
 /* 上に戻るボタン */

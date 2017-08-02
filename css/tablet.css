@@ -362,6 +362,10 @@ ul.pro_nav li a:active{
   display: none;
 }
 
+.description_sp_index{
+  display: none;
+}
+
 
 /* 上に戻るボタン */
 #pageTop {
