@@ -407,6 +407,7 @@ ul.pro_nav li a:active{
   margin: 20px 20px 0px 10px;
   padding: 0px;
   float: left;
+  z-index: 995;
 }
 .sp_logo img{
   width: 130px;
@@ -441,7 +442,7 @@ ul.pro_nav li a:active{
   width: 100%;
   top: 60px;
   right: 0px;
-  z-index: 998;
+  z-index: 997;
   background-color: #C6191E;
   padding: 0px 10px 15px 10px;
   -webkit-box-sizing: border-box;
@@ -463,6 +464,10 @@ ul.pro_nav li a:active{
   color: #fff;
   text-decoration: none;
 }
+
+
+
+
 
 
 /* 上に戻るボタン */
