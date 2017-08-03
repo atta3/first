@@ -366,6 +366,10 @@ ul.pro_nav li a:active{
   display: none;
 }
 
+/* スマホSNSナビ */
+.sp_sns_navi{
+  display: none;
+}
 
 /* 上に戻るボタン */
 #pageTop {
