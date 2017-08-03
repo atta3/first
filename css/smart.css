@@ -464,7 +464,6 @@ ul.pro_nav li a:active{
   color: #fff;
   text-decoration: none;
 }
-
 .description_sp_index{
   position: relative;
   width: 90%;
@@ -477,6 +476,40 @@ ul.pro_nav li a:active{
   margin-right: 10px;
 }
 
+/* スマホSNSナビ */
+.sp_sns_navi{
+  position: fixed;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  left: 0px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+  z-index: 993;
+}
+ .sp_sns_follow{
+   margin: 0 auto;
+   margin: 5px;
+ }
+ul .sp_sns_follow{
+  width: 30%;
+  height: auto;
+  font-size: 150%;
+}
+ul .sp_sns_follow_row{
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 150%;
+  text-align: center;
+}
+ul .sp_sns_follow_row li{
+  display: inline-block;
+  margin: 0 auto;
+  color: #0075B4;
+}
 
 /* 上に戻るボタン */
 #pageTop a{
@@ -639,8 +672,7 @@ ul.pro_nav_head li a:active{
 #breadcrumbs ol {
   padding-left: 10px;
   font-size: 80%;
-  height: 10px;
-  line-height: 10px;
+  height: auto;
 }
 #breadcrumbs ol li {
   display: inline-block;
@@ -656,7 +688,6 @@ ul.pro_nav_head li a:active{
 .breadcrumbs_in{
   margin: 0 auto;
   width: 100%;
-  padding: 0px;
   text-align: left;
 }
 
