@@ -480,36 +480,44 @@ ul.pro_nav li a:active{
 .sp_sns_navi{
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 55px;
   bottom: 0px;
   left: 0px;
   margin: 0 auto;
   background-color: #fff;
-  border: solid 1px #e5e5e5;
   z-index: 993;
 }
- .sp_sns_follow{
-   margin: 0 auto;
-   margin: 5px;
- }
-ul .sp_sns_follow{
-  width: 30%;
-  height: auto;
-  font-size: 150%;
-}
-ul .sp_sns_follow_row{
-  width: 150px;
-  height: auto;
+.sp_sns_row{
+  border: solid 1px #e5e5e5;
   margin: 0 auto;
-  padding: 0;
-  font-size: 150%;
   text-align: center;
 }
-ul .sp_sns_follow_row li{
+.sp_sns_follow{
+  display: inline-block;
+  list-style: none;
+  height: auto;
+  margin: 5px;
+  padding: 0;
+  font-size: 150%;
+}
+.sp_sns_follow li{
   display: inline-block;
   margin: 0 auto;
   color: #0075B4;
 }
+#sp_sns_search{
+  position: relative;
+  top: -10px;
+}
+#searchform2{
+}
+#keywords2{  
+    width: 90px;  
+    height: auto;   
+    border: 1px solid #0075B4;  
+    padding: 2px 0px 2px 2px;
+}  
+
 
 /* 上に戻るボタン */
 #pageTop a{
@@ -532,7 +540,9 @@ footer {
   background-color: #E9C500;
   padding: 20px 0;
   text-align: center;
-  color: #171717;}
+  color: #171717;
+  margin-bottom: 55px;
+}
 
 .f-link{
 	padding: 0px;
