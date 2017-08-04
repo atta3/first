@@ -294,7 +294,6 @@ margin-bottom: 0px;
   margin: 0 auto;
   width: 80%;
 }
-
 .info_tit{
 position: relative;
 background: #0075B4;
@@ -305,7 +304,6 @@ border-radius: 0 10px 10px 0;
 margin: 8px;
 text-align: center;
 }
-
 .info_tit:before {
 font-family: FontAwesome;
 content: "\f041";
@@ -329,8 +327,6 @@ transform: translateY(-50%);
 border: solid 3px white; 
 border-radius: 50%;
 }
-
-
 .info_sub{
   height: auto;
   background-color: #f8f7f0;
@@ -527,7 +523,6 @@ ul.pro_nav li a:active{
 
 
 /*スポンサー*/
-
 .sponsor{
   width: auto;
   height: 100px;
@@ -542,9 +537,7 @@ footer {
   padding: 20px 0;
   text-align: center;
   color: #171717;
-  margin-bottom: 55px;
 }
-
 .f-link{
 	padding: 0px;
 	}
@@ -557,14 +550,12 @@ footer {
   margin-right: 25px;
   margin-bottom: 10px;
 }
-
 .f_link_deco{
 position: relative;
 padding: 2px 2px 2px 15px;
 color: #E9C500;
 border-radius: 0 10px 10px 0;
 }
-
 .f_link_deco:before {
 font-family: FontAwesome;
 content: "\f005";
@@ -705,23 +696,24 @@ ul.pro_nav_head li a:active{
 
 /* ▽ページ送り▽*/
 .page_navi{
+  position: relative;
   width: auto;
   height: 50px;
   background-color: #E9C500;
+  padding: 5px 0px;
   margin: 0 auto;
 }
-.page_navi_dt{
+ul .page_navi_dt{
   position: relative;
-	top: 0px;
-	left: -20px;
   width: auto;
+  margin: 0 auto;
   text-align: center;
 }
 .page_navi_dt li{
   display: inline-block;
+  margin: 0px;
 }
 .page_navi_dt a{
-  display: block;
   text-decoration: none;
 }
 ul.page_navi_dt li:hover{
@@ -742,11 +734,14 @@ ul.page_navi_dt li a:active{
 li:nth-child(1){
   display: none;
 }
+.page_navi_po{
+  display: none;
+}
 .current{
   color: #C6191E;
 }
 .page_navi_pn{
-  width: 100px;
+  width: 80px;
   height: 20px;
   background-color: #ffffff;
   line-height: 20px;
@@ -754,6 +749,7 @@ li:nth-child(1){
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   margin: 10px 3px; 
+  font-size: 80%;
 }
 .page_navi_pn:hover{
   background: #C6191E;
@@ -762,13 +758,18 @@ li:nth-child(1){
 font-family: FontAwesome;
 content: "\f104";
 font-size: 100%;
-margin-right: 10px;
+margin-right: 5px;
+margin-left: 5px;
+}
+.page_navi_n{
+  margin-left: 5px;
 }
 .page_navi_n:after {
 font-family: FontAwesome;
 content: "\f105";
 font-size: 100%;
-margin-left: 10px;
+margin-right: 0px;
+margin-left: 5px;
 }
 
 /* ▽方眼シート▽*/
@@ -793,6 +794,7 @@ section{/* 方眼背景*/
 .flame_row{　/* 白背景*/
   width: 100%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .pro_flame_list{
@@ -800,19 +802,20 @@ section{/* 方眼背景*/
   padding: 0px;
   margin: 0px 5px 20px 5px;
   background-color: #ffffff;
-  width: 260px;
+  width: 250px;
   height: auto;
   text-align: center;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.6); 
+  border:solid 1px #a3a3a3;
 }
 .pro_photo{
   margin: 0 auto;
   width: auto;
   height: auto;
   background-color: #ffffff;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .paper{
@@ -825,7 +828,6 @@ section{/* 方眼背景*/
 	background:#fff;
 	box-shadow:  0px 0px 10px 0px #e5e5e5 ;
 }
-
 .pro_title{
   margin: 0 auto;
   position: relative;
@@ -862,6 +864,7 @@ section{/* 方眼背景*/
   width: auto;
   height: auto;
   margin: 0 auto;
+  margin-top: 35px;
 }
 .pro_head{
   position: relative;
@@ -918,17 +921,18 @@ section{/* 方眼背景*/
   background-color: #e5e5e5;
 }
 
-.pro_photo{
+.pro_photo_s{
   margin: 0 auto;
   width: auto;
   height: auto;
   background-color: #ffffff;
   margin-bottom: 10px;
 }
-.paper{
+.paper_s{
 	width:200px;
 	height:auto;
 	margin: 0 auto;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	padding:15px 10px 10px 10px;
 	border:1px solid #fff;
