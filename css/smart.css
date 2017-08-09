@@ -620,6 +620,7 @@ border-radius: 50%;
 .pro_nav_head_row{
   width: 100%;
   margin: 0 auto;
+  margin-top: 110px;
 }
 ul.pro_nav_head{
   padding: 5px;
@@ -638,11 +639,7 @@ ul.pro_nav_head li{
   height: 14px;
   text-align: center;
   line-height: 14px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  margin:0px 2px 10px 0px;
-  padding: 7px;
+  padding: 2px;
   font-size: 60%;
 }
 ul.pro_nav_head li:hover{
@@ -661,6 +658,14 @@ ul.pro_nav_head li a:hover{
 ul.pro_nav_head li a:active{
   color: #E9C500;
 }
+#nav_sp{
+  background-color: #fff;
+}
+#nav_sp a{
+  color: #C6191E;
+  border-bottom: solid #C6191E 1px;
+}
+
 
 /* ▽パンくずリスト▽*/
 
@@ -774,9 +779,10 @@ margin-left: 5px;
 
 /* ▽方眼シート▽*/
 section{/* 方眼背景*/
+    display: inline-block;
     background-color: #FFF;
     min-height: 418px;
-    padding: 10px 10px 10px 10px;
+    padding: 2px 10px 10px 10px;
     background-image:
         -webkit-linear-gradient(
             transparent 95%,
@@ -789,18 +795,17 @@ section{/* 方眼背景*/
             );
     background-size: 20px 20px;
     background-repeat: repeat;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 .flame_row{　/* 白背景*/
   width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
 }
 
 .pro_flame_list{
   display: inline-block;
-  padding: 0px;
   margin: 0px 5px 20px 5px;
+  padding: 0px;
   background-color: #ffffff;
   width: 250px;
   height: auto;
@@ -1143,7 +1148,9 @@ textarea {
   content: "\f146";
   color: #0075B4;
 }
-
+.sima_pa{
+  padding-top: 15px;
+}
 ul#sima_list li {
   margin-top: 20px;
   margin-bottom: -10px;

@@ -1093,7 +1093,9 @@ table.pro_table1 th{
   content: "\f146";
   color: #0075B4;
 }
-
+.sima_pa{
+  padding-top: 15px;
+}
 ul#sima_list li {
   margin-top: 20px;
   margin-bottom: -10px;
