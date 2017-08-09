@@ -546,6 +546,7 @@ ul.pro_nav_head li a:active{
 
 nav#breadcrumbs{
   width: 100%;
+  height: auto;
   background-color: #E9C500;
   padding: 0px;
   margin-bottom: 10px;
@@ -564,7 +565,7 @@ nav#breadcrumbs ol li:first-child:before {
   margin: 0 auto;
   width: 760px;
   text-align: left;
-  height: 20px;
+  height: auto;
 }
 
 /* ▽ページ送り▽*/
