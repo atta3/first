@@ -13,18 +13,15 @@
     <link rel="stylesheet" href="css/smart.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png" type="text/css">
-    <!-- carousel -->
-        <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-        <!-- jQuery -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <!-- Owl Carousel JS -->
-        <script src="owlcarousel/owl.carousel.min.js"></script>
-	        <!-- Owl Carouselを動作させるために追加 -->
-        <script src="carousel.js"></script>
+    <!-- 上に戻るボタン jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- font-awesome -->  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ 
 </head>
 <body>
+	
+<!--PC・タブレット ヘッダー-->
 <header>
         <div class="h_all">
             <div class="row">
@@ -37,8 +34,11 @@
 	            </div><!--description-->
 	            <div class="top_navi_row">
 	            <ul class="top_navi">
-	                <a href="sitemap.html"><li id="sitemap">サイトマップ</li></a>
-	                <a href="contact.html"><li id="contact">お問い合わせ</li></a>
+	               	<ul class="sns_follow">
+	               		<li><a href="//www.facebook.com/atta3" target="_blank" title="Facebookをフォロー" rel="nofollow"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+	               		<li><a href="//twitter.com/atta3" target="_blank" title="Twitterをフォロー" rel="nofollow"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+	               		<li><a href="https://atta-atta-atta.com/feed" target="_blank" title="RSSで更新情報をフォロー" rel="nofollow"><i class="fa fa-rss-square fa-2x" aria-hidden="true"></i></a></li>
+	               	</ul>
 	                <div class="top_navi_search">
 	                	<form  id="searchform1" method="get" action="http://www.google.co.jp/search" target="_blank">
 	                	<input id="keywords1" name="q" size="31" maxlength="255" value="" type="text">
@@ -52,6 +52,43 @@
 	        </div><!-- row -->
 	    </div><!-- h_all -->
 </header>
+
+<!--スマホヘッダー-->
+<div class="sp_header">
+	<div class="sp_header_row">
+		<div class="sp_logo">
+			<a href="http://www.atta-atta-atta.com"><img src="images/logo.png" alt="atta-アッタ-（ロゴ）" srcset="images/logo@2x.png 2x" /></a>
+		</div>
+	</div>
+	<div id="menubutton">メニューを開く</div>
+	<ul class="sp_menu_toggle">
+		<li><a href="index.html">トップページ</a></li>
+		<li><a href="prodcts.html">どんな商品がある？</a></li>
+		<li><a href="company.html">どんな会社がある？</a></li>
+		<li><a href="system.html">制度利用で買える？</a></li>
+	</ul>
+</div>
+
+<!--スマホSNSナビ-->
+<div class="sp_sns_navi">
+	<div class="sp_sns_row">
+		<ul class="sp_sns_follow">
+			<li></li>
+			<li id="sp_sns_search">
+                	<form  id="searchform2" method="get" action="http://www.google.co.jp/search" target="_blank">
+                	<input id="keywords2" name="q" size="30" maxlength="255" value="" type="text">
+                	<input name="btng" value="検索" type="submit">
+                	<input name="hl" value="ja" type="hidden">
+                	<input name="sitesearch" value="atta-atta-atta.com" type="hidden">
+					</form>
+	        </li>
+	   		<li><a href="//www.facebook.com/atta3" target="_blank" title="Facebookをフォロー" rel="nofollow"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+	   		<li><a href="//twitter.com/atta3" target="_blank" title="Twitterをフォロー" rel="nofollow"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+	   		<li><a href="https://atta-atta-atta.com/feed" target="_blank" title="RSSで更新情報をフォロー" rel="nofollow"><i class="fa fa-rss-square fa-2x" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+</div>
+
 
 <!--ネック-->
 <neck>
@@ -73,7 +110,7 @@
       <a itemprop="url" href="http://www.atta-atta-atta.com"><span itemprop="title">トップページ</span></a>
     </li>
     <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-      <span itemprop="title">どんな商品がある？</span>
+      <span itemprop="title">制度利用で買える？</span>
     </li>
   </ol>
 </div><!--breadcrumbs-->
@@ -84,7 +121,6 @@
 
 </section>
 </main>
-<div class="page_navi"></div>
 <p id="pageTop"><a href="#">上に戻る</a></p>
 <!--フッター-->
 <footer>
@@ -96,7 +132,7 @@
 	<div class="copyright">©Copyright 2017 atta-アッタ-</div>
 </footer>
 <script src="jquery.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="menubutton.js"></script>
 <script type="text/javascript" src="pagetop.js"></script>
 </body>
 </html>

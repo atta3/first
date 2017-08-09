@@ -396,10 +396,21 @@ ul.pro_nav li a:active{
 }
 
 /*スポンサー*/
-
 .sponsor{
-  width: auto;
+  position: relative;
+  width: 300px;
   height: 100px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sponsor_in{
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  line-height: 100px;
+  border: solid 1px #000;
 }
 
 

@@ -521,14 +521,23 @@ ul.pro_nav li a:active{
   display: none;
 }
 
-
 /*スポンサー*/
 .sponsor{
-  width: auto;
+  position: relative;
+  width: 200px;
   height: 100px;
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
 }
-
-
+.sponsor_in{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  line-height: 100px;
+  border: solid 1px #000;
+}
 
 /* Footer
 ------------------------------------------------------------*/
@@ -591,9 +600,6 @@ border-radius: 50%;
 #nav_dot{
   color: #C6191E;
   background: #ffffff;
-  border-style: dotted;
-  border-color: #C6191E;
-  border-width: medium;
 }
 #nav_dot:hover{
   background: #E9C500;
@@ -610,6 +616,14 @@ border-radius: 50%;
 }
 #nav_dot a:active{
   color: #E9C500;
+}
+
+.nav_sp{
+  background-color: #fff;
+}
+.nav_sp a{
+  color: #C6191E;
+  border-bottom: solid #C6191E 1px;
 }
 
 
@@ -658,14 +672,6 @@ ul.pro_nav_head li a:hover{
 ul.pro_nav_head li a:active{
   color: #E9C500;
 }
-#nav_sp{
-  background-color: #fff;
-}
-#nav_sp a{
-  color: #C6191E;
-  border-bottom: solid #C6191E 1px;
-}
-
 
 /* ▽パンくずリスト▽*/
 
@@ -796,6 +802,7 @@ section{/* 方眼背景*/
     background-size: 20px 20px;
     background-repeat: repeat;
     margin: 5px 0px;
+    width: 90%;
 }
 .flame_row{　/* 白背景*/
   width: 100%;
