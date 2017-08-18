@@ -274,14 +274,14 @@ margin-bottom: 40px;
 /* ▽更新情報▽*/
 .info{
   margin: 0 auto;
-  width: 500px;
+  width: 600px;
 }
 
 .info_tit{
 position: relative;
 background: #0075B4;
 padding: 2px 40px 2px 25px;
-font-size: 18px;
+font-size: 140%;
 color: #ffffff;
 border-radius: 0 10px 10px 0;
 margin: 8px;
@@ -319,6 +319,7 @@ border-radius: 50%;
 .info_sub_tb{
   margin: 0 auto;
   text-align: left;
+  font-size: 110%;
 }
 
 /* ▽商品ナビゲーション▽*/
