@@ -9,14 +9,14 @@ red:#C6191E;
 /* Base
 ------------------------------------------------------------*/
 html {
-  font-size: 62.5%; 
+  font-size:100%; 
   margin: 0;
   padding: 0;
 }
 
 body {
   color: #171717;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
@@ -111,7 +111,7 @@ header{
   margin-top: 15px;
 }
 .row{
-  width: 760px;
+  width: 980px;
   display: flex;
   margin: 0 auto;
 }
@@ -119,7 +119,7 @@ header{
   margin: 20px 20px 0px 0px;
   padding: 0px;
   float: left;
-  width: 30%;
+  width: 22%;
 }
 .logo img{
   max-width: 100%;
@@ -129,8 +129,9 @@ header{
 }
 .description{
   float: left;
-  width: 43%;
-  font-size: 80%;
+  width: 58%;
+  margin-top: 10px;
+  font-size: 88%;
 }
 ul.top_navi{
   list-style: none;
@@ -203,7 +204,7 @@ ul .sns_follow li{
 /* ネック */
 neck{
   margin: 0 auto;
-  width: 80%;
+  width: 95%;
   text-align: center;
 }
 ul.nav{
@@ -217,9 +218,9 @@ ul.nav{
 ul.nav li{
   display: inline-block;
   padding: 10px;
-  margin: 0px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
   background: #C6191E;
-  width: 160px;
+  width: 220px;
   height: 24px;
   text-align: center;
   border-radius: 12px;
@@ -323,7 +324,7 @@ border-radius: 50%;
 /* ▽商品ナビゲーション▽*/
 
 .pro_nav_row{
-  width: 820px;
+  width: 780px;
   margin: 0 auto;
 }
 ul.pro_nav{
@@ -426,7 +427,9 @@ footer {
   background-color: #E9C500;
   padding: 20px 0;
   text-align: center;
-  color: #171717;}
+  color: #171717;
+  font-size: 120%;
+}
 
 .f-link{
 	padding: 0px;
@@ -509,7 +512,7 @@ border-radius: 50%;
 /* ▽商品ナビゲーション▽*/
 
 .pro_nav_head_row{
-  width: 760px;
+  width: 980px;
   margin: 0 auto;
 }
 ul.pro_nav_head{
@@ -534,7 +537,7 @@ ul.pro_nav_head li{
   -moz-border-radius: 8px;
   margin:0px 2px 10px 0px;
   padding: 7px;
-  font-size: 80%;
+  font-size: 100%;
 }
 ul.pro_nav_head li:hover{
   background: #E9C500;
@@ -574,9 +577,10 @@ nav#breadcrumbs ol li:first-child:before {
 }
 .breadcrumbs_in{
   margin: 0 auto;
-  width: 760px;
+  width: 980px;
   text-align: left;
   height: auto;
+  font-size: 100%;
 }
 
 /* ▽ページ送り▽*/
@@ -660,34 +664,7 @@ margin-left: 10px;
 
 
 /* ▽方眼シート▽*/
-section{/* 方眼背景*/
-    background-color: #FFF;
-    min-height: 418px;
-    padding: 10px 10px 10px 10px;
-    background-image:
-        -webkit-linear-gradient(
-            transparent 95%,
-            rgba(77, 77, 77, .2) 70%,
-            rgba(77, 77, 77, .2)),
-        -webkit-linear-gradient(
-            0deg, transparent 95%,
-            rgba(77, 77, 77, .2) 70%,
-            rgba(77, 77, 77, .2)
-            );
-    background-size: 20px 20px;
-    background-repeat: repeat;
-    margin: 10px 0px;
-    height: auto;
-}
-.flame_row{　/* 白背景*/
-  width: 760px;
-  margin: 0 auto;
-  padding: 0;
-  height: auto;
-}
 
-
-/* ▽方眼▽*/
 section{/* 方眼背景*/
     background-color: #FFF;
     min-height: 418px;
@@ -708,7 +685,7 @@ section{/* 方眼背景*/
     height: auto;
 }
 .pro_flame_row{
-  width: 760px;
+  width: 980px;
   margin: 0 auto;
   padding: 0;
   height: auto;
@@ -716,7 +693,7 @@ section{/* 方眼背景*/
 .pro_flame_list{
   display: inline-block;
   padding: 0px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 20px 20px 0px;
   background-color: #ffffff;
   width: auto;
   height: auto;
@@ -728,13 +705,13 @@ section{/* 方眼背景*/
 }
 .pro_photo{
   width: 90%;
-  height: 160px;
+  height: 200px;
   margin: 0 auto;
   background-color: #ffffff;
 }
 .paper{
-	width:160px;
-	height:120px;
+	width:200px;
+	height:160px;
 	margin: 15px 0px 10px 10px;
 	padding: 10px;
 	background:#fff;
@@ -771,6 +748,7 @@ section{/* 方眼背景*/
   height: 25px;
   line-height: 25px;
   color: #000000;
+  font-size: 2rem;
   background-color: #e5e5e5;
 }
 .pro_flame_list a{
@@ -779,42 +757,39 @@ section{/* 方眼背景*/
 }
 .pro_comment{
   position: relative;
-  width: 210px;
-  height: 110px;
+  width: 250px;
+  height: 140px;
   margin: 0px 0px 0px 15px;
   text-align: left;
 }
 .pro_comment p{
   color: #000000;
+  font-size: 1.8rem;
 }
 .pro_more{
   position: absolute;
-  width: 130px;
+  width: 180px;
   right: 10px;
   bottom: 10px;
   text-align: right;
 }
 .pro_more a{
   color: #000000;
+  font-size: 1.6rem;
 }
 
 
 /* ▽商品ページ▽*/
 
-.pro_flame_row{
-  width: 760px;
-  height: auto;
-  margin: 0 auto;
-}
 .pro_head{
 position: relative;
 padding: 0.25em 1em;
 border-top: solid 2px #e5e5e5;
 border-bottom: solid 2px #e5e5e5;
   font-size: 140%;
-  width: 650px;
+  width: 860px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px 10px 0px 10px;
 }
 .pro_head:before, .pro_head:after{
 content: '';
@@ -834,8 +809,9 @@ background-color: #e5e5e5;
 }
 .pro_right{
   float: right;
-  width: 450px;
+  width: 600px;
   padding: 20px 10px;
+  margin-right: 10px;
   
 }
 .pro_flame{
@@ -990,7 +966,7 @@ background-color: #e5e5e5;
   margin: -15px 0px 20px 0;
   padding: 0 5px;
   text-align: left;
-  font-size: 140%;
+  font-size: 160%;
 }
 .pro_r_text2{
   width: 98%;
@@ -998,9 +974,10 @@ background-color: #e5e5e5;
   margin: 0px 0px 20px 0;
   padding: 0 5px;
   text-align: left;
+  font-size: 120%;
 }
 .pro_r_text3{
-  width: 450px;
+  width: 600px;
   height: auto;
   margin: 0px 0px 20px 0;
   text-align: left;
@@ -1011,6 +988,7 @@ background-color: #e5e5e5;
   margin: 0px 0px 20px 0;
   padding: 0 5px;
   text-align: left;
+  font-size: 110%;
   line-height: 2em;
 }
 .pro_r_text5{
@@ -1036,7 +1014,7 @@ table.pro_table1 tr{
         border-width: 1px 0;
     }
 table.pro_table1 th{
-  width: 120px;
+  width: 180px;
   font-weight: normal;
   text-align: center;
 }
@@ -1047,7 +1025,7 @@ table.pro_table1 th{
   padding: 0px;
   margin: 0px 5px 0px 5px;
   background-color: #ffffff;
-  width: 740px;
+  width: 800px;
   height: 570px;
   text-align: center;
   border: solid 1px #e5e5e5;
@@ -1061,6 +1039,7 @@ table.pro_table1 th{
 }
 .con_desc{
   margin: 30px 0 30px 0;
+  font-size: 110%;
 }
 .con_box{
   width: 80%;
@@ -1079,7 +1058,7 @@ table.pro_table1 th{
   padding-bottom: 20px;
   margin: 0px 5px 0px 5px;
   background-color: #ffffff;
-  width: 740px;
+  width: 800px;
   height: auto;
   text-align: center;
   border: solid 1px #e5e5e5;
@@ -1095,6 +1074,7 @@ table.pro_table1 th{
   width: 560px;
   margin: 0 auto;
   text-align: left;
+  font-size: 110%;
 }
 #sima_list{
   width: auto;
@@ -1136,10 +1116,10 @@ ul#sima_list li ul li a{
 /*▽attaのページ▽*/
 .abo_flame{
   display: inline-block;
-  padding: 0px;
+  padding-bottom: 30px;
   margin: 0px 5px 0px 5px;
   background-color: #ffffff;
-  width: 740px;
+  width: 800px;
   height: auto;
   text-align: center;
   border: solid 1px #e5e5e5;
@@ -1168,6 +1148,7 @@ ul#sima_list li ul li a{
 }
 .abo_text{
   margin: 20px 10px;
+  font-size: 110%;
 }
 #wf-roundedmplus1c {
   font-family: "Rounded Mplus 1c";
