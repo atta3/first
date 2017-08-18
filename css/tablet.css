@@ -770,12 +770,19 @@ section{/* 方眼背景*/
   background-color: #e5e5e5;
   clear: both;
 }
+.pro_flame_list a{
+  text-decoration: none;
+  color: #000;
+}
 .pro_comment{
   position: relative;
   width: 88%;
   height: 110px;
   margin: 0px 10px 0px 15px;
   text-align: left;
+}
+.pro_comment p{
+  color: #000000;
 }
 .pro_more{
   position: absolute;
